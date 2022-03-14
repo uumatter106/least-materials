@@ -1,0 +1,20 @@
+type: BufferedItemBridge
+name: Coal Bridge Conveyor
+description:
+    '''
+    Fast, further than bridge conveyor.
+    But can't be placeable on sea.
+    Requirement costs high.
+    '''
+health: 30
+range: 6
+placeableLiquid: false
+speed: 140
+bufferCapacity: 3
+requirements: [
+    copper/30
+    lead/40
+    coal/10
+]
+category: distribution
+research: bridge-conveyor

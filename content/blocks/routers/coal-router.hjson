@@ -1,0 +1,14 @@
+type: Router
+name: Coal Router
+description: "Fastest, but not defenseable."
+health: 10
+speed: 0.10
+capacity: 3
+size: 1
+requirements: [
+    copper/12
+    lead/24
+    coal/6
+]
+category: distribution
+research: router

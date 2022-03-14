@@ -7,8 +7,8 @@ hasPower: false
 hasLiquids: false
 hasItems: true
 itemCapacity: 18
-craftTime: 180
-updateEffect: mine
+craftTime: 200
+updateEffect: smeltsmoke
 consumes: {}
 requirements: [
     copper/150
@@ -18,7 +18,7 @@ outputItem: coal/3
 category: crafting
 research: mechanical-drill
 idleSound: respawning
-idleSoundVolume: 0.12
-activeSound: machine
-activeSoundVolume: 0.1
+idleSoundVolume: 0.4
+activeSound: break
+activeSoundVolume: 0.4
 

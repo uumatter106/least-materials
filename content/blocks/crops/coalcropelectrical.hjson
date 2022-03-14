@@ -8,9 +8,9 @@ hasLiquids: false
 hasItems: true
 itemCapacity: 24
 craftTime: 60
-updateEffect: mine
+updateEffect: smeltsmoke
 consumes: {
-    power: 120
+    power: 30
 }
 requirements: [
     copper/500
@@ -18,13 +18,13 @@ requirements: [
     titanium/300
     thorium/200
 ]
-outputItem: coal/6
+outputItem: coal/8
 category: crafting
 research: mechanical-drill
 idleSound: respawning
-idleSoundVolume: 0.12
-activeSound: machine
-activeSoundVolume: 0.1
+idleSoundVolume: 0.4
+activeSound: break
+activeSoundVolume: 0.4
 
 
 
