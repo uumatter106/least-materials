@@ -2,12 +2,12 @@ type: Router
 name: Coal Router
 description: "Fastest, but not defenseable."
 health: 10
-speed: 0.10
+speed: 0.40
 capacity: 3
 size: 1
 requirements: [
     copper/12
-    lead/24
+    lead/8
     coal/6
 ]
 category: distribution
