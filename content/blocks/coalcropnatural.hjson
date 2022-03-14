@@ -1,0 +1,24 @@
+type: GenericSmelter
+name: Coal Crop Natural
+description: Gives coal without cropping cost hopely.
+size: 1
+health: 40
+hasPower: false
+hasLiquids: false
+hasItems: true
+itemCapacity: 18
+craftTime: 180
+updateEffect: mine
+consumes: {}
+requirements: [
+    copper/150
+    lead/70
+]
+outputItem: coal/3
+category: crafting
+research: mechanical-drill
+idleSound: respawning
+idleSoundVolume: 0.12
+activeSound: machine
+activeSoundVolume: 0.1
+

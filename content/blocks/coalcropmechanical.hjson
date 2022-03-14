@@ -18,15 +18,15 @@ consumes: {
     }
 }
 requirements: [
-    copper/100
-    lead/70
+    copper/300
+    lead/240
 ]
 outputItem: coal/4
 category: crafting
 research: mechanical-drill
 idleSound: respawning
 idleSoundVolume: 0.12
-activeSound: click
+activeSound: machine
 activeSoundVolume: 0.1
 
 

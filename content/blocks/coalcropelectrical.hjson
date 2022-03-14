@@ -1,0 +1,30 @@
+type: GenericSmelter
+name: Coal Crop Electrical
+description: Gives coal with electric power
+size: 3
+health: 80
+hasPower: true
+hasLiquids: false
+hasItems: true
+itemCapacity: 24
+craftTime: 60
+updateEffect: mine
+consumes: {
+    power: 120
+}
+requirements: [
+    copper/500
+    lead/400
+    titanium/300
+    thorium/200
+]
+outputItem: coal/6
+category: crafting
+research: mechanical-drill
+idleSound: respawning
+idleSoundVolume: 0.12
+activeSound: machine
+activeSoundVolume: 0.1
+
+
+
