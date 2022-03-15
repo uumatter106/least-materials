@@ -1,0 +1,32 @@
+type: GenericSmelter
+name: Copper Crop Mechanical
+description: Gives copper with cropping cost hopely.
+size: 2
+health: 40
+hasPower: false
+hasLiquids: false
+hasItems: true
+itemCapacity: 6
+craftTime: 90
+updateEffect: smeltsmoke
+consumes: {
+    items : {
+        items: [
+            coal/4
+            lead/1
+        ]
+    }
+}
+requirements: [
+    copper/600
+    lead/300
+]
+outputItem: copper/3
+category: crafting
+research: mechanical-drill
+idleSound: respawning
+idleSoundVolume: 0.4
+activeSound: break
+activeSoundVolume: 0.4
+
+

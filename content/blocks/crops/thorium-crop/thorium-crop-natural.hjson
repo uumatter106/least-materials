@@ -1,0 +1,25 @@
+type: GenericSmelter
+name: Thorium Crop Natural
+description: Gives thorium without cropping cost hopely.
+size: 1
+health: 100
+hasPower: false
+hasLiquids: false
+hasItems: true
+itemCapacity: 6
+craftTime: 300
+updateEffect: smeltsmoke
+consumes: {}
+requirements: [
+    copper/300
+    lead/200
+    thorium/100
+    coal/80
+]
+outputItem: thorium/2
+category: crafting
+research: mechanical-drill
+idleSound: respawning
+idleSoundVolume: 0.4
+activeSound: break
+activeSoundVolume: 0.4

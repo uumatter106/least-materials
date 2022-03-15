@@ -1,0 +1,32 @@
+type: GenericSmelter
+name: Thorium Crop Electrical
+description: Gives thorium with electric power.
+size: 3
+health: 180
+hasPower: true
+hasLiquids: false
+hasItems: true
+itemCapacity: 8
+craftTime: 80
+updateEffect: smeltsmoke
+consumes: {
+    power: 60
+}
+requirements: [
+    copper/1200
+    lead/800
+    titanium/640
+    thorium/600
+    graphite/300
+    silicon/200
+]
+outputItem: thorium/4
+category: crafting
+research: mechanical-drill
+idleSound: respawning
+idleSoundVolume: 0.4
+activeSound: break
+activeSoundVolume: 0.4
+
+
+

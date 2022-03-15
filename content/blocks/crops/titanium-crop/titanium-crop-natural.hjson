@@ -1,0 +1,24 @@
+type: GenericSmelter
+name: Titanium Crop Natural
+description: Gives titanium without cropping cost hopely.
+size: 1
+health: 80
+hasPower: false
+hasLiquids: false
+hasItems: true
+itemCapacity: 8
+craftTime: 250
+updateEffect: smeltsmoke
+consumes: {}
+requirements: [
+    copper/240
+    lead/160
+    coal/60
+]
+outputItem: titanium/2
+category: crafting
+research: mechanical-drill
+idleSound: respawning
+idleSoundVolume: 0.4
+activeSound: break
+activeSoundVolume: 0.4

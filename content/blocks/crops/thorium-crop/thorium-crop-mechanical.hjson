@@ -1,0 +1,35 @@
+type: GenericSmelter
+name: Thorium Crop Mechanical
+description: Gives thorium with cropping cost hopely.
+size: 2
+health: 80
+hasPower: false
+hasLiquids: false
+hasItems: true
+itemCapacity: 6
+craftTime: 180
+updateEffect: smeltsmoke
+consumes: {
+    items : {
+        items: [
+            lead/3
+            titanium/2
+        ]
+    }
+}
+requirements: [
+    copper/1000
+    lead/800
+    titanium/360
+    thorium/300
+    coal/240
+]
+outputItem: thorium/3
+category: crafting
+research: mechanical-drill
+idleSound: respawning
+idleSoundVolume: 0.4
+activeSound: break
+activeSoundVolume: 0.4
+
+

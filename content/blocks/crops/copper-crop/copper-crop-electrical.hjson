@@ -1,0 +1,29 @@
+type: GenericSmelter
+name: Copper Crop Electrical
+description: Gives copper with electric power.
+size: 3
+health: 100
+hasPower: true
+hasLiquids: false
+hasItems: true
+itemCapacity: 18
+craftTime: 60
+updateEffect: smeltsmoke
+consumes: {
+    power: 36
+}
+requirements: [
+    copper/800
+    lead/500
+    titanium/400
+]
+outputItem: copper/6
+category: crafting
+research: mechanical-drill
+idleSound: respawning
+idleSoundVolume: 0.4
+activeSound: break
+activeSoundVolume: 0.4
+
+
+

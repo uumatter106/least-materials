@@ -1,0 +1,20 @@
+type: GenericSmelter
+name: Copper Crop Natural
+description: Gives copper without cropping cost hopely.
+size: 1
+health: 50
+hasPower: false
+hasLiquids: false
+hasItems: true
+itemCapacity: 12
+craftTime: 240
+updateEffect: smeltsmoke
+consumes: {}
+requirements: []
+outputItem: copper/2
+category: crafting
+research: mechanical-drill
+idleSound: respawning
+idleSoundVolume: 0.4
+activeSound: break
+activeSoundVolume: 0.4

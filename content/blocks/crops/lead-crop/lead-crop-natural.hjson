@@ -1,0 +1,22 @@
+type: GenericSmelter
+name: Lead Crop Natural
+description: Gives lead without cropping cost hopely.
+size: 1
+health: 60
+hasPower: false
+hasLiquids: false
+hasItems: true
+itemCapacity: 10
+craftTime: 240
+updateEffect: smeltsmoke
+consumes: {}
+requirements: [
+    copper/180
+]
+outputItem: lead/2
+category: crafting
+research: mechanical-drill
+idleSound: respawning
+idleSoundVolume: 0.4
+activeSound: break
+activeSoundVolume: 0.4

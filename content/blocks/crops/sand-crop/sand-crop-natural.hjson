@@ -1,0 +1,23 @@
+type: GenericSmelter
+name: Sand Crop Natural
+description: Gives sand without cropping cost hopely.
+size: 1
+health: 20
+hasPower: false
+hasLiquids: false
+hasItems: true
+itemCapacity: 24
+craftTime: 180
+updateEffect: smeltsmoke
+consumes: {}
+requirements: [
+    copper/60
+]
+outputItem: sand/3
+category: crafting
+research: mechanical-drill
+idleSound: respawning
+idleSoundVolume: 0.4
+activeSound: break
+activeSoundVolume: 0.4
+

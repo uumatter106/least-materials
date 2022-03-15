@@ -1,0 +1,31 @@
+type: GenericSmelter
+name: Titanium Crop Electrical
+description: Gives titanium with electric power.
+size: 3
+health: 160
+hasPower: true
+hasLiquids: false
+hasItems: true
+itemCapacity: 12
+craftTime: 60
+updateEffect: smeltsmoke
+consumes: {
+    power: 48
+}
+requirements: [
+    copper/1000
+    lead/600
+    titanium/600
+    thorium/400
+    graphite/160
+]
+outputItem: titanium/4
+category: crafting
+research: mechanical-drill
+idleSound: respawning
+idleSoundVolume: 0.4
+activeSound: break
+activeSoundVolume: 0.4
+
+
+

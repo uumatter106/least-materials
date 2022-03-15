@@ -1,0 +1,30 @@
+type: GenericSmelter
+name: Lead Crop Electrical
+description: Gives lead with electric power.
+size: 3
+health: 120
+hasPower: true
+hasLiquids: false
+hasItems: true
+itemCapacity: 15
+craftTime: 60
+updateEffect: smeltsmoke
+consumes: {
+    power: 40
+}
+requirements: [
+    copper/1000
+    lead/600
+    titanium/500
+    thorium/300
+]
+outputItem: lead/5
+category: crafting
+research: mechanical-drill
+idleSound: respawning
+idleSoundVolume: 0.4
+activeSound: break
+activeSoundVolume: 0.4
+
+
+

@@ -1,0 +1,32 @@
+type: GenericSmelter
+name: Sand Crop Mechanical
+description: Gives sand with cropping cost hopely.
+size: 2
+health: 30
+hasPower: false
+hasLiquids: false
+hasItems: true
+itemCapacity: 12
+craftTime: 90
+updateEffect: smeltsmoke
+consumes: {
+    items : {
+        items: [
+            coal/2
+            copper/1
+        ]
+    }
+}
+requirements: [
+    copper/400
+    lead/240
+]
+outputItem: sand/6
+category: crafting
+research: mechanical-drill
+idleSound: respawning
+idleSoundVolume: 0.4
+activeSound: break
+activeSoundVolume: 0.4
+
+

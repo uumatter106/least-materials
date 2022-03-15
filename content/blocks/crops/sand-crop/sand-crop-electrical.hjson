@@ -1,0 +1,29 @@
+type: GenericSmelter
+name: Sand Crop Electrical
+description: Gives sand with electric power.
+size: 3
+health: 60
+hasPower: true
+hasLiquids: false
+hasItems: true
+itemCapacity: 32
+craftTime: 50
+updateEffect: smeltsmoke
+consumes: {
+    power: 24
+}
+requirements: [
+    copper/300
+    lead/100
+    sand/80
+]
+outputItem: sand/8
+category: crafting
+research: mechanical-drill
+idleSound: respawning
+idleSoundVolume: 0.4
+activeSound: break
+activeSoundVolume: 0.4
+
+
+

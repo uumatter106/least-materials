@@ -1,0 +1,33 @@
+type: GenericSmelter
+name: Lead Crop Mechanical
+description: Gives lead with cropping cost hopely.
+size: 2
+health: 50
+hasPower: false
+hasLiquids: false
+hasItems: true
+itemCapacity: 6
+craftTime: 120
+updateEffect: smeltsmoke
+consumes: {
+    items : {
+        items: [
+            coal/3
+            copper/2
+        ]
+    }
+}
+requirements: [
+    copper/640
+    lead/420
+    coal/120
+]
+outputItem: lead/3
+category: crafting
+research: mechanical-drill
+idleSound: respawning
+idleSoundVolume: 0.4
+activeSound: break
+activeSoundVolume: 0.4
+
+
