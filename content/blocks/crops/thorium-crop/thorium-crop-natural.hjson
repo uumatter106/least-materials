@@ -13,7 +13,7 @@ consumes: {}
 requirements: [
     copper/300
     lead/200
-    thorium/100
+    titanium/100
     coal/80
 ]
 outputItem: thorium/2
