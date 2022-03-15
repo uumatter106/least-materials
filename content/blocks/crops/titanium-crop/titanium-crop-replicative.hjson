@@ -1,0 +1,37 @@
+type: GenericSmelter
+name: Titanium Crop Replicative
+description: Produces a lot of amount of titanium.
+size: 2
+health: 900
+hasPower: true
+hasLiquids: false
+hasItems: true
+itemCapacity: 120
+craftTime: 30
+updateEffect: smeltsmoke
+consumes: {
+    power: 120
+}
+requirements: [
+    copper/4000
+    lead/4000
+    titanium/4000
+    thorium/4000
+    graphite/4000
+    silicon/4000
+    coal/4000
+    sand/4000
+    metaglass/4000
+    plastanium/3000
+    surge-alloy/3000
+    scrap/2000
+]
+outputItem: titanium/20
+category: crafting
+research: mechanical-drill
+idleSound: respawning
+idleSoundVolume: 0.4
+activeSound: break
+activeSoundVolume: 0.4
+
+
