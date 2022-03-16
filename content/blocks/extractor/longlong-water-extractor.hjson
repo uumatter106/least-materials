@@ -12,7 +12,7 @@ hasLiquids: true
 size: 1
 pumpAmount: 1.40
 consumes: {
-    power: 6.0
+    power: 20.0
 }
 requirements: [
     copper/3000
