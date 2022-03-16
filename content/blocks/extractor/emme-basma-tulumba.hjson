@@ -1,0 +1,28 @@
+type: SolidPump
+name: Emme Basma Tulumba
+description:
+    '''
+    Just search it. It's emme basma tulumba!
+    '''
+health: 300
+result: water
+hasPower: false
+hasLiquids: true
+size: 3
+pumpAmount: 1.5
+consumes: {}
+requirements: [
+    copper/600
+    lead/400
+    graphite/240
+    silicon/200
+    metaglass/1200
+]
+# powerUse: 1.0
+category: production
+research: water-extractor
+liquidCapacity: 100
+
+
+
+

@@ -1,0 +1,33 @@
+type: SolidPump
+name: LongLong Water Extractor
+description:
+    '''
+    Extracts water from underground deep water sources.
+    You would trust him for its high health amount hopely.
+    '''
+health: 6000
+result: water
+hasPower: true
+hasLiquids: true
+size: 1
+pumpAmount: 0.10
+consumes: {
+    power: 6.0
+}
+requirements: [
+    copper/3000
+    lead/2400
+    graphite/900
+    metaglass/2000
+    silicon/1200
+    titanium/1500
+    thorium/600
+]
+# powerUse: 6.0
+category: production
+research: water-extractor
+liquidCapacity: 1200
+
+
+
+

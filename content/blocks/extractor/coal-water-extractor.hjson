@@ -1,0 +1,26 @@
+type: SolidPump
+name: Coal Water Extractor
+description: Minimal water extractor. Hardened with copper, lead and graphite. Doesn't need metaglass as requirements. Has weak health.
+health: 60
+result: water
+hasPower: true
+hasLiquids: true
+size: 1
+pumpAmount: 0.40
+consumes: {
+    power: 1.0
+}
+requirements: [
+    copper/600
+    lead/400
+    graphite/120
+    coal/500
+]
+# powerUse: 1.0
+category: production
+research: water-extractor
+liquidCapacity: 60
+
+
+
+

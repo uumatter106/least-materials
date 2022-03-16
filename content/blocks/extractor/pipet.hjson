@@ -1,0 +1,26 @@
+type: SolidPump
+name: Pipet
+description:
+    '''
+    Its design allows to pump effect on water.
+    So water comes up to earth slowly.
+    Doesn't require any power hopely.
+    '''
+health: 10
+result: water
+hasPower: false
+hasLiquids: true
+size: 1
+pumpAmount: 3.00
+consumes: {}
+requirements: [
+    metaglass/120
+]
+# powerUse: 1.0
+category: production
+research: water-extractor
+liquidCapacity: 10
+
+
+
+
