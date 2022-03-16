@@ -9,7 +9,7 @@ result: water
 hasPower: false
 hasLiquids: true
 size: 3
-pumpAmount: 1.5
+pumpAmount: 0.5
 consumes: {}
 requirements: [
     copper/600

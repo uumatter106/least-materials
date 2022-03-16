@@ -11,7 +11,7 @@ result: water
 hasPower: false
 hasLiquids: true
 size: 1
-pumpAmount: 3.00
+pumpAmount: 0.05
 consumes: {}
 requirements: [
     metaglass/120
@@ -21,6 +21,6 @@ category: production
 research: water-extractor
 liquidCapacity: 10
 
-
+# pumpAmount x60 -> wat/sec
 
 

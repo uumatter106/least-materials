@@ -10,7 +10,7 @@ result: water
 hasPower: true
 hasLiquids: true
 size: 1
-pumpAmount: 0.10
+pumpAmount: 1.40
 consumes: {
     power: 6.0
 }
