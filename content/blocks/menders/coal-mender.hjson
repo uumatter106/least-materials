@@ -11,9 +11,11 @@ buildCostMultiplier: 0.4
 healPercent: 0.4
 hasPower: false
 consumes: {
-    items: [
-        coal/1
-    ]
+    items: {
+        items: [
+            coal/1
+        ]
+    }
 }
 requirements: [
     copper/300
