@@ -5,6 +5,7 @@ health: 100
 size: 1
 range: 100
 reload: 30
+itemStorage: 10
 phaseBoost: 2
 baseColor: "#636D55"
 buildCostMultiplier: 0.4
