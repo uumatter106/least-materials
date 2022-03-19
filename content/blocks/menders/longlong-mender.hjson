@@ -1,0 +1,30 @@
+type: MendProjector
+name: LongLong Mender
+description: Has long feelings.
+health: 4000
+size: 1
+range: 300
+reload: 8
+phaseBoost: 4
+baseColor: "#F12121"
+buildCostMultiplier: 1.2
+healPercent: 1
+hasPower: true
+consumes: {
+    power: 20
+}
+requirements: [
+    copper/1600
+    lead/1000
+    coal/800
+    sand/2000
+    metaglass/600
+    silicon/1600
+    titanium/1000
+    thorium/500
+]
+category: effect
+research: mend-projector
+
+
+

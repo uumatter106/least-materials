@@ -1,0 +1,28 @@
+type: MendProjector
+name: Coal Mender
+description: Mending is easy with coal.
+health: 100
+size: 1
+range: 100
+reload: 30
+phaseBoost: 2
+baseColor: "#636D55"
+buildCostMultiplier: 0.4
+healPercent: 0.4
+hasPower: false
+consumes: {
+    items: [
+        coal/1
+    ]
+}
+requirements: [
+    copper/300
+    lead/200
+    coal/100
+    sand/400
+]
+category: effect
+research: mend-projector
+
+
+
