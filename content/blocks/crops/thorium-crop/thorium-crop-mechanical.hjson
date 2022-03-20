@@ -26,7 +26,7 @@ requirements: [
 ]
 outputItem: thorium/3
 category: crafting
-research: mechanical-drill
+research: thorium-crop-natural
 idleSound: respawning
 idleSoundVolume: 0.4
 activeSound: break

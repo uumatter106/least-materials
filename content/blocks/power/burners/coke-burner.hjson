@@ -1,0 +1,26 @@
+type: BurnerGenerator
+name: Coke Burner
+description: Durable, Effective, Power Generator from coal.
+size: 3
+itemCapacity: 100
+hasItems: true
+minItemEfficiency: 0.4
+randomlyExplode: false
+itemDuration: 3000
+powerProduction: 50
+consumes: {
+    items: {
+        items: [
+            Coal/10
+        ]
+    }
+}
+requirements: [
+    copper/1600
+    lead/1200
+    coal/800
+    sand/4000
+]
+category: power
+research: combustion-generator
+# itemDuration / 60 = (power/sn)

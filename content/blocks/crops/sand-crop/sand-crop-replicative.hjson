@@ -28,7 +28,7 @@ requirements: [
 ]
 outputItem: sand/20
 category: crafting
-research: mechanical-drill
+research: sand-crop-electrical
 idleSound: respawning
 idleSoundVolume: 0.4
 activeSound: break

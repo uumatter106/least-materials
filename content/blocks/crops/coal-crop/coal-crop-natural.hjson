@@ -16,7 +16,7 @@ requirements: [
 ]
 outputItem: coal/3
 category: crafting
-research: mechanical-drill
+research: lead-crop-natural
 idleSound: respawning
 idleSoundVolume: 0.4
 activeSound: break

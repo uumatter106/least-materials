@@ -28,7 +28,7 @@ requirements: [
 ]
 outputItem: titanium/20
 category: crafting
-research: mechanical-drill
+research: titanium-crop-electrical
 idleSound: respawning
 idleSoundVolume: 0.4
 activeSound: break

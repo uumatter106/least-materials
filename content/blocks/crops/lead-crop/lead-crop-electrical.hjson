@@ -20,7 +20,7 @@ requirements: [
 ]
 outputItem: lead/5
 category: crafting
-research: mechanical-drill
+research: thorium-crop-natural
 idleSound: respawning
 idleSoundVolume: 0.4
 activeSound: break

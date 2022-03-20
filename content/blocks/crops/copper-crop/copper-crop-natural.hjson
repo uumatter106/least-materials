@@ -13,7 +13,7 @@ consumes: {}
 requirements: []
 outputItem: copper/2
 category: crafting
-research: mechanical-drill
+#research: mechanical-drill
 idleSound: respawning
 idleSoundVolume: 0.4
 activeSound: break
