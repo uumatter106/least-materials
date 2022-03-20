@@ -1,0 +1,41 @@
+type: Drill
+name: LongLong Drill
+description: Long processing..
+drillTime: 60
+tier:10
+warmupSpeed: 0.10
+liquidBoostIntensity: 2
+liquidCapacity: 4000
+rotateSpeed: 6
+hasPower: true
+heatColor: F210E2
+drawRim: false
+size: 1
+consumes: {
+    liquid: {
+        liquid: cryofluid
+        amount: 0.4
+        booster: true
+        optional: true
+    }
+    liquid: {
+        liquid: water
+        amount: 0.6
+        booster: true
+        optional: true
+    }
+}
+requirements: [
+    copper/2000
+    lead/1600
+    coal/1300
+    sand/1200
+    graphite/1000
+    silicon/200
+    titanium/1600
+    thorium/800
+]
+category: production
+research: coke-drill
+# amount * 60 = (liquid/sn)
+

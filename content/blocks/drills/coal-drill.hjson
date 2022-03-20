@@ -1,0 +1,32 @@
+type: Drill
+name: Coal Drill
+description: Made with coal.
+drillTime: 150
+tier:5
+warmupSpeed: 0.03
+liquidBoostIntensity: 6
+liquidCapacity: 30
+rotateSpeed: 12
+hasPower: false
+heatColor: F21010
+drawRim: false
+size: 2
+consumes: {
+    liquid: {
+        liquid: water
+        amount: 0.5
+        booster: true
+        optional: true
+    }
+}
+requirements: [
+    copper/300
+    lead/200
+    coal/600
+    sand/200
+    graphite/50
+]
+category: production
+research: pneumatic-drill
+# amount * 60 = (liquid/sn)
+

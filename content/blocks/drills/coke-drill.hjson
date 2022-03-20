@@ -1,0 +1,38 @@
+type: Drill
+name: Coke Drill
+description:
+    '''
+    It's a coke place where comes coals to burn in.
+    And it has drill ception.
+    '''
+drillTime: 120
+tier:8
+warmupSpeed: 0.0001
+liquidBoostIntensity: 10
+liquidCapacity: 3000
+rotateSpeed: 4
+hasPower: false
+heatColor: F21010
+drawRim: false
+size: 3
+consumes: {
+    liquid: {
+        liquid: water
+        amount: 1.8
+        booster: true
+    }
+}
+requirements: [
+    copper/1500
+    lead/800
+    titanium/1000
+    coal/3000
+    sand/800
+    graphite/400
+    silicon/100
+]
+category: production
+research: coal-drill
+# amount * 60 = (liquid/sn)
+
+
