@@ -7,4 +7,6 @@ Now you are able to get coal hopely!
 Menders, bridges(also for liquid), more crops are there to you.
 These didn't come with v1.10.1. But this version can a leader for made updates.
 
+# With v1.20.1
+You would have a new energy source that burns coal!
 
