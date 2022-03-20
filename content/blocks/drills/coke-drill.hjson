@@ -5,6 +5,7 @@ description:
     It's a coke place where comes coals to burn in.
     And it has drill ception.
     '''
+health: 500
 drillTime: 120
 tier:8
 warmupSpeed: 0.0001

@@ -1,6 +1,7 @@
 type: Drill
 name: Coal Drill
 description: Made with coal.
+health: 60
 drillTime: 150
 tier:5
 warmupSpeed: 0.03

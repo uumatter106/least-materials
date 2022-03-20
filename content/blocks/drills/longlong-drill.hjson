@@ -1,6 +1,7 @@
 type: Drill
 name: LongLong Drill
 description: Long processing..
+health: 3600
 drillTime: 20
 tier:10
 warmupSpeed: 0.10
