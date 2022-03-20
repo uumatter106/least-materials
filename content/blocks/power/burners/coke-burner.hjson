@@ -11,7 +11,7 @@ powerProduction: 50
 consumes: {
     items: {
         items: [
-            Coal/10
+            coal/10
         ]
     }
 }
