@@ -1,7 +1,7 @@
 type: Drill
 name: LongLong Drill
 description: Long processing..
-drillTime: 40
+drillTime: 20
 tier:10
 warmupSpeed: 0.10
 liquidBoostIntensity: 2
