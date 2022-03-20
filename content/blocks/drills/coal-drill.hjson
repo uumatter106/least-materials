@@ -4,7 +4,7 @@ description: Made with coal.
 drillTime: 150
 tier:5
 warmupSpeed: 0.03
-liquidBoostIntensity: 6
+liquidBoostIntensity: 4
 liquidCapacity: 30
 rotateSpeed: 12
 hasPower: false

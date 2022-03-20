@@ -1,7 +1,7 @@
 type: Drill
 name: LongLong Drill
 description: Long processing..
-drillTime: 60
+drillTime: 40
 tier:10
 warmupSpeed: 0.10
 liquidBoostIntensity: 2
@@ -12,6 +12,7 @@ heatColor: F210E2
 drawRim: false
 size: 1
 consumes: {
+    power: 20
     liquid: {
         liquid: cryofluid
         amount: 0.4
@@ -37,5 +38,5 @@ requirements: [
 ]
 category: production
 research: coke-drill
-# amount * 60 = (liquid/sn)
+# amount * 60 = (liquid OR power/sn)
 

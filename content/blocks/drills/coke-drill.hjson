@@ -8,8 +8,8 @@ description:
 drillTime: 120
 tier:8
 warmupSpeed: 0.0001
-liquidBoostIntensity: 10
-liquidCapacity: 3000
+liquidBoostIntensity: 8
+liquidCapacity: 1000
 rotateSpeed: 4
 hasPower: false
 heatColor: F21010
