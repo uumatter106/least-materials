@@ -14,43 +14,57 @@ category: turret
 ammoTypes: {
     copper: {
         type: BasicBulletType
-        speed: 3
+        speed: 5
         damage: 13
+        ammoMultiplier: 3
     }
     sand: {
         type: BasicBulletType
-        speed: 5
+        speed: 8
         damage: 6
+        ammoMultiplier: 1
     }
     coal: {
         type: BasicBulletType
         speed: 6
         damage: 10
+        ammoMultiplier: 5
     }
     graphite: {
         type: BasicBulletType
         speed: 2
         damage: 24
+        ammoMultiplier: 6
     }
     silicon: {
         type: BasicBulletType
         speed: 10
         damage: 10
+        ammoMultiplier: 12
     }
     titanium: {
         type: BasicBulletType
         speed: 12
         damage: 8
+        ammoMultiplier: 4
     }
     thorium: {
         type: BasicBulletType
         speed: 6
-        damage: 20
+        damage: 25
+        ammoMultiplier: 6
     }
     scrap: {
         type: BasicBulletType
-        speed: 4
-        damage: 8
+        speed: 5
+        damage: 16
+        ammoMultiplier: 2
+    }
+    metaglass: {
+        type: BasicBulletType
+        speed: 10
+        damage: 20
+        ammoMultiplier: 6
     }
 }
 
