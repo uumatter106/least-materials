@@ -1,0 +1,64 @@
+type: ItemTurret
+name: Cee
+description: Duo-like turret of earlier game.
+targetAir: true
+health: 500
+size: 2
+reloadTime: 0.5
+range: 200
+inaccuracy: 1
+rotatespeed: 25
+maxAmmo: 400
+category: turret
+
+ammoTypes: {
+    copper: {
+        type: BasicBulletType
+        speed: 3
+        damage: 13
+    }
+    sand: {
+        type: BasicBulletType
+        speed: 5
+        damage: 6
+    }
+    coal: {
+        type: BasicBulletType
+        speed: 6
+        damage: 10
+    }
+    graphite: {
+        type: BasicBulletType
+        speed: 2
+        damage: 24
+    }
+    silicon: {
+        type: BasicBulletType
+        speed: 10
+        damage: 10
+    }
+    titanium: {
+        type: BasicBulletType
+        speed: 12
+        damage: 8
+    }
+    thorium: {
+        type: BasicBulletType
+        speed: 6
+        damage: 20
+    }
+    scrap: {
+        type: BasicBulletType
+        speed: 4
+        damage: 8
+    }
+}
+
+requirements: [
+    copper/600
+    lead/300
+    sand/200
+    coal/100
+]
+
+research: duo
