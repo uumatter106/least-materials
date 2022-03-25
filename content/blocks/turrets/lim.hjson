@@ -12,10 +12,10 @@ ammoUseEffect: ripple
 shootCone: 25
 maxAmmo: 100
 rotateSpeed: 10
-range: 600
+range: 500
 ammoTypes: {
     graphite: {
-        speed: 20
+        speed: 25
         collidesTiles: false
         damage: 120
         collides: false
@@ -23,20 +23,20 @@ ammoTypes: {
         collidesTeam: false
         collidesAir: false
         splashDamageRadius: 6
-        ammoMultiplier: 3
+        ammoMultiplier: 5
         width: 8
         height: 12
     }
     silicon: {
-        speed: 30
+        speed: 25
         collidesTiles: false
-        damage: 160
+        damage: 300
         collides: false
-        splashDamage: 80
+        splashDamage: 60
         collidesTeam: false
         collidesAir: false
-        splashDamageRadius: 8
-        ammoMultiplier: 1
+        splashDamageRadius: 6
+        ammoMultiplier: 5
         width: 8
         height: 12
     }
