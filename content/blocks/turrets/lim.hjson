@@ -1,5 +1,5 @@
 type: ItemTurret
-name: Sniper
+name: Lim
 description: It's like a lemon.
 targetGround: true
 targetAir: false
@@ -9,7 +9,7 @@ inaccuracy: 0
 reloadTime: 200
 recoilAmount: 1
 ammoUseEffect: ripple
-shootCone: 16
+shootCone: 25
 maxAmmo: 100
 rotateSpeed: 10
 range: 600
@@ -22,9 +22,9 @@ ammoTypes: {
         splashDamage: 30
         collidesTeam: false
         collidesAir: false
-        splashDamageRadius: 16
+        splashDamageRadius: 6
         ammoMultiplier: 3
-        width: 10
+        width: 8
         height: 12
     }
     silicon: {
@@ -35,9 +35,9 @@ ammoTypes: {
         splashDamage: 80
         collidesTeam: false
         collidesAir: false
-        splashDamageRadius: 20
+        splashDamageRadius: 8
         ammoMultiplier: 1
-        width: 10
+        width: 8
         height: 12
     }
 }
