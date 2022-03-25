@@ -1,0 +1,33 @@
+type: TractorBeamTurret
+name: Rke
+description: Beams its power to air.
+size: 2
+force: 20
+targetAir: true
+targetGround: false
+scaledForce: 12
+health: 600
+range: 200
+damage: 20
+rotateSpeed: 15
+hasPower: true
+consumes: {
+    power: 1
+    liquid: {
+        liquid: water
+        amount: 0.4
+        booster: true
+        optional: true
+    }
+}
+liquidBoostIntensity: 2.4
+requirements: [
+    copper/500
+    lead/400
+    coal/400
+    sand/200
+    graphite/300
+    silicon/100
+]
+category: turret
+research: cee
