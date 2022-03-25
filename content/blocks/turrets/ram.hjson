@@ -1,0 +1,60 @@
+type: LaserTurret
+name: Ram
+description: Melts enemies.
+shots: 4
+spread: 12
+targetAir: false
+targetGround: true
+powerUse: 8
+coolantMultiplier: 5
+health: 3000
+size: 3
+update: true
+hasPower: true
+shootEffect: {
+    type: ParticleEffect
+    cone: 360
+    sizeFrom: 150
+    sizeTo: 0
+    particles: 50
+    colorFrom: F67A7A
+    colorTo: F6E07A
+    length: 80
+    lifetime: 300
+}
+shootEffect: shootBigSmoke2
+shootCone: 360
+shootShake: 2.0
+range: 240
+reloadTime: 160
+firingMoveFract: 0.75
+shootDuration: 200
+shootSound: laserbig
+shootType: {
+    type: ContinuousLaserBulletType
+    damage: 63
+    length: 265
+    width: 15
+    hitEffect: hitMeltdown
+    drawSize: 400
+    incendChance: 0.45
+    incendSpread: 8
+    incendAmount: 1.1
+}
+requirements: [
+    copper/1200
+    lead/800
+    sand/1000
+    coal/1000
+    graphite/600
+    silicon/300
+    titanium/100
+]
+category: turret
+research: rke
+consumes: {
+    liquid: {
+        liquid: water
+        amount: 0.5
+    }
+}

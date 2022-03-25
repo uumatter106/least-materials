@@ -1,0 +1,56 @@
+type: ItemTurret
+name: Sniper
+description: It's like a lemon.
+targetGround: true
+targetAir: false
+health: 800
+size: 2
+inaccuracy: 0
+reloadTime: 200
+recoilAmount: 1
+ammoUseEffect: artillery
+shootCone: 16
+maxAmmo: 100
+rotateSpeed: 10
+range: 600
+ammoTypes: {
+    graphite: {
+        speed: 20
+        collidesTiles: false
+        damage: 120
+        collides: false
+        splashDamage: 30
+        collidesTeam: false
+        collidesAir: false
+        splashDamageRadius: 16
+        ammoMultiplier: 3
+        width: 10
+        height: 12
+    }
+    silicon: {
+        speed: 30
+        collidesTiles: false
+        damage: 160
+        collides: false
+        splashDamage: 80
+        collidesTeam: false
+        collidesAir: false
+        splashDamageRadius: 20
+        ammoMultiplier: 1
+        width: 10
+        height: 12
+    }
+}
+requirements: [
+    copper/800
+    lead/400
+    graphite/300
+    sand/100
+    coal/50
+    silicon/400
+    titanium/200
+    thorium/100
+]
+category: turret
+research: cee
+
