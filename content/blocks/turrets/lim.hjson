@@ -3,7 +3,7 @@ name: Lim
 description: It's a lemon maybe.
 health: 800
 size: 2
-reloadTime: 16.0
+reloadTime: 15.4
 ammoEjectBack: 1
 ammoUseEffect: shootBig
 shootSound: bang
@@ -14,7 +14,7 @@ shootShake: 1
 inaccuracy: 4
 rotateSpeed: 20
 range: 300
-minRange: 80
+minRange: 100
 shots: 4
 shootCone: 10
 alternate: true
