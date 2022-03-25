@@ -32,7 +32,7 @@ ammoTypes: {
     }
     graphite: {
         type: BasicBulletType
-        speed: 2
+        speed: 7
         damage: 24
         ammoMultiplier: 6
     }

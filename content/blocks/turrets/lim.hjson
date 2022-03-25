@@ -1,56 +1,39 @@
 type: ItemTurret
 name: Lim
-description: It's like a lemon.
-targetGround: true
-targetAir: false
+description: It's a lemon maybe.
 health: 800
 size: 2
-inaccuracy: 0
-reloadTime: 200
-recoilAmount: 1
-ammoUseEffect: ripple
-shootCone: 25
-maxAmmo: 100
-rotateSpeed: 10
-range: 500
+reloadTime: 16.0
+ammoEjectBack: 1
+ammoUseEffect: shootBig
+shootSound: bang
+velocityInaccuracy: 0.1
+restitution: 0.2
+recoilAmount: 3
+shootShake: 1
+inaccuracy: 4
+rotateSpeed: 20
+range: 300
+minRange: 80
+shots: 4
+shootCone: 10
+alternate: true
+targetGround: true
+targetAir: false
 ammoTypes: {
-    graphite: {
-        speed: 25
-        collidesTiles: false
-        damage: 120
-        collides: false
-        splashDamage: 30
-        collidesTeam: false
-        collidesAir: false
-        splashDamageRadius: 6
-        ammoMultiplier: 5
-        width: 8
-        height: 12
-    }
-    silicon: {
-        speed: 25
-        collidesTiles: false
-        damage: 300
-        collides: false
-        splashDamage: 60
-        collidesTeam: false
-        collidesAir: false
-        splashDamageRadius: 6
-        ammoMultiplier: 5
-        width: 8
-        height: 12
-    }
+	graphite:  artilleryDense
+	silicon: artilleryHoming
+	pyratite: artilleryIncendiary
+	blast-compound: artilleryExplosive
+	plastanium: artilleryPlastic 
 }
 requirements: [
-    copper/800
+    copper/600
     lead/400
+    coal/500
+    sand/250
     graphite/300
-    sand/100
-    coal/50
-    silicon/400
-    titanium/200
-    thorium/100
+    titanium/100
 ]
 category: turret
-research: cee
-
+research: rke
