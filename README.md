@@ -14,3 +14,6 @@ You would have a new energy source that burns coal!
 
 # With v1.21.3
 You would have your drills! Coal Drill, Coke Drill ANDD LongLong Drill.
+
+# With v1.23.4
+There are turrets new. Turrets are cee, rke, lim, ram. They could fix your enemy problems on ground and air.

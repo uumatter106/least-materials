@@ -8,7 +8,7 @@ size: 2
 inaccuracy: 0
 reloadTime: 200
 recoilAmount: 1
-ammoUseEffect: artillery
+ammoUseEffect: ripple
 shootCone: 16
 maxAmmo: 100
 rotateSpeed: 10
