@@ -1,0 +1,31 @@
+type: ItemTurret
+name: Nad
+description: It's not a molecule but a turret.
+health: 700
+size: 3
+reloadTime: 60
+ammoUseEffect: shoot
+shootSound: shootBig
+inaccuracy: 0
+rotateSpeed: 16
+range: 420
+shots: 3
+alternate: true
+targetGround: true
+targetAir: false
+
+ammoTypes: {
+    silicon: {
+        speed: 16
+        damage: 50
+        width: 9
+        height: 17
+        lifetime: 40
+        pierce: true
+        pierceBuilding: true
+        pierceCap: 8
+        hitEffect: shockwave
+        smokeEffect: shootBigSmoke
+        ammoMultiplier: 3
+    }
+}

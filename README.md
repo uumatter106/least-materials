@@ -17,3 +17,6 @@ You would have your drills! Coal Drill, Coke Drill ANDD LongLong Drill.
 
 # With v1.23.4
 There are turrets new. Turrets are cee, rke, lim, ram. They could fix your enemy problems on ground and air.
+
+# With v1.23.9
+Nad here. Nad is like to a sniper but more than sniper if you like it hopefully.
