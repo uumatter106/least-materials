@@ -4,7 +4,7 @@ description: It's not a molecule but a turret.
 health: 700
 size: 3
 reloadTime: 60
-ammoUseEffect: shoot
+ammoUseEffect: bigShockwave
 shootSound: shootBig
 inaccuracy: 0
 rotateSpeed: 16
