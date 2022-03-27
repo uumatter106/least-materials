@@ -9,7 +9,7 @@ shootSound: shootBig
 inaccuracy: 0
 rotateSpeed: 16
 range: 420
-shots: 5
+shots: 1
 alternate: true
 targetGround: true
 targetAir: false
