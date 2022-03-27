@@ -1,9 +1,9 @@
 type: ItemTurret
 name: Nad
-description: It's not a molecule but a turret.
+description: It's not a molecule but a turret. Needs lots of silicons.
 health: 700
 size: 3
-reloadTime: 60
+reloadTime: 50
 ammoUseEffect: bigShockwave
 shootSound: shootBig
 inaccuracy: 0
@@ -13,6 +13,7 @@ shots: 3
 alternate: true
 targetGround: true
 targetAir: false
+powerUse: 4
 
 ammoTypes: {
     silicon: {
@@ -26,7 +27,7 @@ ammoTypes: {
         pierceCap: 8
         hitEffect: shockwave
         smokeEffect: shootBigSmoke
-        ammoMultiplier: 3
+        ammoMultiplier: 2
     }
 }
 
