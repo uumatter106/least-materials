@@ -29,3 +29,15 @@ ammoTypes: {
         ammoMultiplier: 3
     }
 }
+
+requirements: [
+    copper/1200
+    lead/800
+    coal/600
+    sand/500
+    graphite/600
+    silicon/2000
+]
+
+category: turret
+research: lim
