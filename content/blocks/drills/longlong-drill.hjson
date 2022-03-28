@@ -5,7 +5,7 @@ health: 3600
 drillTime: 20
 tier:10
 warmupSpeed: 0.10
-liquidBoostIntensity: 2
+liquidBoostIntensity: 80
 liquidCapacity: 4000
 rotateSpeed: 6
 hasPower: true
@@ -16,26 +16,26 @@ consumes: {
     power: 20
     liquid: {
         liquid: cryofluid
-        amount: 0.4
+        amount: 4.0
         booster: true
         optional: true
     }
     liquid: {
         liquid: water
-        amount: 0.6
+        amount: 6.0
         booster: true
         optional: true
     }
 }
 requirements: [
-    copper/2000
+    copper/3000
     lead/1600
     coal/1300
     sand/1200
     graphite/1000
-    silicon/200
+    silicon/600
     titanium/1600
-    thorium/800
+    thorium/1200
 ]
 category: production
 research: coke-drill

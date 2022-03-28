@@ -20,3 +20,9 @@ There are turrets new. Turrets are cee, rke, lim, ram. They could fix your enemy
 
 # With v1.23.9
 Nad here. Nad is like to a sniper but more than sniper if you like it hopefully.
+
+# With v1.24.0
+More turrets like eke and not.
+Not is resource saver at constructing it.
+Eke is grown version of duo hopely.
+

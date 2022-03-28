@@ -1,0 +1,44 @@
+type: ItemTurret
+name: Not
+description: It does not allow enemies to destroy your core. Less requirements.
+targetAir: true
+health: 130
+size: 1
+reloadTime: 3.5
+range: 120
+inaccuracy: 4
+rotatespeed: 30
+maxAmmo: 200
+category: turret
+
+ammoTypes: {
+    copper: {
+        type: BasicBulletType
+        speed: 5
+        damage: 10
+        ammoMultiplier: 8
+    }
+    sand: {
+        type: BasicBulletType
+        speed: 6
+        damage: 4
+        ammoMultiplier: 4
+    }
+    coal: {
+        type: BasicBulletType
+        speed: 7
+        damage: 16
+        ammoMultiplier: 12
+    }
+}
+
+requirements: [
+    copper/120
+    lead/80
+    sand/30
+    coal/10
+]
+
+category: turret
+research: duo
+

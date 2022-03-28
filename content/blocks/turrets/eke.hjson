@@ -1,0 +1,90 @@
+type: ItemTurret
+name: Eke
+description:
+    '''
+    It's an adult of duo.
+    But adulty doesn't allow himself to target air enemies.
+    It's stronger on ground.
+    '''
+targetAir: false
+health: 625
+size: 3
+reloadTime: 0.8
+range: 400
+inaccuracy: 3
+rotatespeed: 10
+maxAmmo: 50
+category: turret
+
+ammoTypes: {
+    copper: {
+        type: BasicBulletType
+        speed: 13
+        damage: 33
+        ammoMultiplier: 3
+    }
+    sand: {
+        type: BasicBulletType
+        speed: 20
+        damage: 15
+        ammoMultiplier: 1
+    }
+    coal: {
+        type: BasicBulletType
+        speed: 15
+        damage: 25
+        ammoMultiplier: 4
+    }
+    graphite: {
+        type: BasicBulletType
+        speed: 18
+        damage: 60
+        ammoMultiplier: 5
+    }
+    silicon: {
+        type: BasicBulletType
+        speed: 25
+        damage: 25
+        ammoMultiplier: 8
+    }
+    titanium: {
+        type: BasicBulletType
+        speed: 30
+        damage: 20
+        ammoMultiplier: 1
+    }
+    thorium: {
+        type: BasicBulletType
+        speed: 15
+        damage: 69
+        ammoMultiplier: 5
+    }
+    scrap: {
+        type: BasicBulletType
+        speed: 13
+        damage: 40
+        ammoMultiplier: 2
+    }
+    metaglass: {
+        type: BasicBulletType
+        speed: 25
+        damage: 50
+        ammoMultiplier: 4
+    }
+}
+
+requirements: [
+    copper/1800
+    lead/900
+    sand/600
+    coal/300
+    thorium/800
+    silicon/1000
+    graphite/600
+    metaglass/300
+    plastanium/200
+]
+
+category: turret
+research: cee
+
