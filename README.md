@@ -26,3 +26,7 @@ More turrets like eke and not.
 Not is resource saver at constructing it.
 Eke is grown version of duo hopely.
 
+# With v1.25.2
+Not turret now require lesser items than before.
+Coal conveyor added. I hope coal conveyor is an effective one.
+
