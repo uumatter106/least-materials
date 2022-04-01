@@ -33,3 +33,8 @@ Coal conveyor added. I hope coal conveyor is an effective one.
 # With v1.25.5
 Hopely added projectors, they are not-projector and proton-projector.
 They would protect your base.
+
+# With v1.26.2
+Buffed projectors and renamed one of them to "Proton Projector".
+Hopefully added rna and dna turrets. See them you may like hopely.
+

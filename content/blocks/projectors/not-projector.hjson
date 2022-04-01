@@ -6,17 +6,17 @@ size: 2
 radius: 80
 useTime: 150
 radiusBoost: 60
-cooldownNormal: 0.75
-cooldownLiquid: 0.75
+cooldownNormal: 0.80
+cooldownLiquid: 1
 cooldownBrokenBase: 0.40
-basePowerDraw: 0.6
+basePowerDraw: 0.5
 breakage: 1000
 consumes: {
-    power: 4.5
+    power: 4.0
     items: {
         items: [
             copper/3
-            lead/1
+            lead/3
         ]
     }
 }

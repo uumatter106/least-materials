@@ -1,0 +1,35 @@
+type: TractorBeamTurret
+name: Dna
+description: Clips dnas of ground enemies.
+size: 3
+force: 27
+targetAir: false
+targetGround: true
+scaledForce: 15
+health: 1000
+range: 260
+damage: 90
+rotateSpeed: 14
+hasPower: true
+consumes: {
+    power: 4
+    liquid: {
+        liquid: water
+        amount: 0.5
+        booster: true
+        optional: true
+    }
+}
+liquidBoostIntensity: 3.1
+requirements: [
+    copper/3000
+    lead/2400
+    coal/1000
+    sand/800
+    graphite/800
+    silicon/500
+    titanium/200
+    thorium/300
+]
+category: turret
+research: cee

@@ -1,22 +1,22 @@
 type: forceProjector
-name: Not Projector
-description: Blocks enemies with its shield.
+name: Proton Projector
+description: Has a cool name Proton.
 health: 1440
 size: 2
 radius: 160
 useTime: 100
 radiusBoost: 80
-cooldownNormal: 3
-cooldownLiquid: 3
+cooldownNormal: 2.7
+cooldownLiquid: 2.4
 cooldownBrokenBase: 2.5
 basePowerDraw: 0.6
 breakage: 1000
 consumes: {
-    power: 10.0
+    power: 15.0
     items: {
         items: [
-            silicon/2
-            thorium/1
+            silicon/3
+            thorium/3
         ]
     }
 }

@@ -1,0 +1,35 @@
+type: TractorBeamTurret
+name: Rna
+description: Clips rnas of air enemies.
+size: 3
+force: 25
+targetAir: true
+targetGround: false
+scaledForce: 13
+health: 900
+range: 250
+damage: 30
+rotateSpeed: 16
+hasPower: true
+consumes: {
+    power: 3
+    liquid: {
+        liquid: water
+        amount: 0.5
+        booster: true
+        optional: true
+    }
+}
+liquidBoostIntensity: 2.7
+requirements: [
+    copper/2000
+    lead/1600
+    coal/800
+    sand/600
+    graphite/600
+    silicon/500
+    titanium/200
+    thorium/300
+]
+category: turret
+research: rke
