@@ -1,0 +1,34 @@
+type: forceProjector
+name: Not Projector
+description: Blocks enemies with its shield.
+health: 1440
+size: 2
+radius: 160
+useTime: 100
+radiusBoost: 80
+cooldownNormal: 3
+cooldownLiquid: 3
+cooldownBrokenBase: 2.5
+basePowerDraw: 0.6
+breakage: 1000
+consumes: {
+    power: 10.0
+    items: {
+        items: [
+            silicon/2
+            thorium/1
+        ]
+    }
+}
+requirements: [
+    copper/2000
+    lead/1200
+    coal/1000
+    graphite/1440
+    silicon/1500
+    titanium/200
+    thorium/600
+]
+category: effect
+research: not-projector
+

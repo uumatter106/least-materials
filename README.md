@@ -30,3 +30,6 @@ Eke is grown version of duo hopely.
 Not turret now require lesser items than before.
 Coal conveyor added. I hope coal conveyor is an effective one.
 
+# With v1.25.5
+Hopely added projectors, they are not-projector and proton-projector.
+They would protect your base.
