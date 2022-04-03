@@ -1,0 +1,15 @@
+type: Router
+name: Black Integration Router
+description: It's a router and a black integration wall too.
+health: 220
+speed: 5.40
+capacity: 100
+size: 1
+requirements: [
+    copper/50
+    lead/40
+    coal/120
+    sand/80
+]
+category: distribution
+research: router

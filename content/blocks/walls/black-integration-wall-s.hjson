@@ -1,0 +1,12 @@
+type: Wall
+name: Black Integration Wall
+description: 1x1 sized. Integrates very well.
+health: 240
+size: 1
+hasShadow: false
+requirements: [
+    coal/20
+    sand/4
+]
+category: defense
+research: copper-wall

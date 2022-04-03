@@ -1,0 +1,19 @@
+type: Sorter
+name: Black Integration Inverted Sorter
+health: 250
+invert: true
+update: true
+solid: true
+instantTransfer: true
+group: transportation
+configurable: true
+unloadable: false
+requirements: [
+    copper/300
+    lead/200
+    graphite/60
+    coal/360
+    sand/250
+]
+category: distribution
+research: black-integration-sorter

@@ -38,3 +38,7 @@ They would protect your base.
 Buffed projectors and renamed one of them to "Proton Projector".
 Hopefully added rna and dna turrets. See them you may like hopely.
 
+# With v1.28.1
+Added black integration pieces. Each one completes a puzzle.
+Black integration puzzlepieces are for making a puzzle, schematic.
+You could use black integration blocks in integration of schematics, that is what did i aim hopely.
