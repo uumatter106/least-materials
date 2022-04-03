@@ -3,7 +3,7 @@ name: Black Integration Router
 description: It's a router and a black integration wall too.
 health: 220
 speed: 5.40
-capacity: 100
+capacity: 5
 size: 1
 requirements: [
     copper/50
