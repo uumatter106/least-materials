@@ -1,4 +1,4 @@
-name: Coal Unloader
+name: Telepran Unloader
 description: Unloads items nearly instant from unloadable resources.
 type: Unloader
 health: 400
