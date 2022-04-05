@@ -6,7 +6,7 @@ size: 1
 hasShadow: false
 requirements: [
     coactal/10
-    cneodal/5
+    cnoadal/5
 ]
 category: defense
 research: copper-wall

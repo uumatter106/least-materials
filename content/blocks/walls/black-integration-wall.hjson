@@ -6,7 +6,7 @@ size: 2
 hasShadow: false
 requirements: [
     coactal/40
-    cneodal/25
+    cnoadal/25
 ]
 category: defense
 research: black-integration-wall-s
