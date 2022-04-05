@@ -11,9 +11,8 @@ craftTime: 250
 updateEffect: smeltsmoke
 consumes: {}
 requirements: [
-    copper/240
-    lead/160
-    coal/60
+    prc/40
+    coac/20
 ]
 outputItem: titanium/2
 category: crafting

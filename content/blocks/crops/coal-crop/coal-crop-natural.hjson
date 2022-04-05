@@ -10,6 +10,7 @@ itemCapacity: 18
 craftTime: 200
 updateEffect: smeltsmoke
 consumes: {}
+# Don't require prc!
 requirements: [
     copper/150
     lead/70

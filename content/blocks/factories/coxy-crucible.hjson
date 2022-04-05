@@ -1,0 +1,47 @@
+name: Coxy Crucible
+type: GenericCrafter
+description:
+    '''
+    Mixes coal, plastanium, spore pod to coxy.
+    '''
+drawer: DrawBlock
+hasItems: true
+hasLiquids: false
+hasPower: true
+itemCapacity: 40
+solid: true
+# auto calculation (current: 360 hp)
+health: -1
+size: 3
+category: crafting
+research: thare-crucible
+requirements: [
+    prc/160
+    thare/80
+    cnoadal/60
+    coactal/20
+    actilac/200
+    brick/120
+    graphite/60
+    silicon/150
+    metaglass/50
+]
+consumes: {
+    power: 4
+    items: {
+        items: [
+            coal/8
+            plastanium/4
+            spore-pod/6
+        ]
+    }
+    liquid: {
+        liquid: cryofluid
+        amount: 0.08
+    }
+}
+outputItem: coxy/6
+craftTime: 90
+craftEffect: none
+updateEffect: none
+updateEffectChance: 0.04

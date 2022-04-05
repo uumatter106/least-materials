@@ -21,11 +21,12 @@ consumes: {
     }
 }
 requirements: [
-    copper/300
-    lead/200
-    coal/600
-    sand/200
-    graphite/50
+    prc/60
+    coactal/40
+    cnoadal/80
+    graphite/60
+    actilac/120
+    thare/50
 ]
 category: production
 research: pneumatic-drill

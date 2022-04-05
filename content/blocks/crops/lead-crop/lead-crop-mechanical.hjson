@@ -18,9 +18,8 @@ consumes: {
     }
 }
 requirements: [
-    copper/640
-    lead/420
-    coal/120
+    prc/60
+    coac/30
 ]
 outputItem: lead/3
 category: crafting

@@ -1,0 +1,14 @@
+name: Coal Unloader
+description: Unloads items from unloadable resources. Made from coal hply.
+type: Unloader
+health: 270
+requirements: [
+    prc/15
+    coac/10
+    graphite/20
+    silicon/15
+]
+category: effect
+speed: 1.50
+group: transportation
+research: unloader

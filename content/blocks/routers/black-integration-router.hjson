@@ -7,10 +7,9 @@ capacity: 1
 # Fixed to 1. Cannot set different of 1.
 size: 1
 requirements: [
-    copper/50
-    lead/40
-    coal/120
-    sand/80
+    prc/20
+    cnoadal/30
+    coalcoc/10
 ]
 category: distribution
 research: router

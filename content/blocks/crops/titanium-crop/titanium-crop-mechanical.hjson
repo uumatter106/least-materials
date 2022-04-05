@@ -18,10 +18,9 @@ consumes: {
     }
 }
 requirements: [
-    copper/800
-    lead/600
-    titanium/300
-    coal/180
+    prc/100
+    titanium/200
+    coalcoc/30
 ]
 outputItem: titanium/3
 category: crafting

@@ -15,12 +15,11 @@ consumes: {
     power: 3
 }
 requirements: [
-    copper/350
-    lead/240
-    graphite/150
-    silicon/100
-    coal/600
-    sand/500
+    prc/60
+    graphite/40
+    silicon/50
+    coactal/8
+    cnoadal/30
 ]
 category: effect
 research: mender

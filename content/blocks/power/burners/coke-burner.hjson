@@ -6,21 +6,20 @@ itemCapacity: 100
 hasItems: true
 minItemEfficiency: 0.4
 randomlyExplode: false
-itemDuration: 3000
-powerProduction: 50
+itemDuration: 600
+powerProduction: 12.2
 consumes: {
     items: {
         items: [
-            coal/10
+            coalcoc/5
         ]
     }
 }
 requirements: [
-    copper/1600
-    lead/1200
-    coal/800
-    sand/4000
+    prc/240
+    cnoadal/200
+    brick/100
 ]
 category: power
-research: combustion-generator
-# itemDuration / 60 = (power/sn)
+research: effective-burner
+# itemDuration / 60 = (item/sn)

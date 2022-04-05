@@ -18,8 +18,7 @@ consumes: {
     }
 }
 requirements: [
-    copper/600
-    lead/300
+    prc/60
 ]
 outputItem: copper/3
 category: crafting

@@ -15,13 +15,14 @@ consumes: {
     power: 20.0
 }
 requirements: [
-    copper/3000
-    lead/2400
-    graphite/900
-    metaglass/2000
-    silicon/1200
-    titanium/1500
-    thorium/600
+    prc/300
+    graphite/250
+    metaglass/400
+    silicon/600
+    thare/100
+    coxy/200
+    actilac/300
+    thorium/400
 ]
 # powerUse: 6.0
 category: production

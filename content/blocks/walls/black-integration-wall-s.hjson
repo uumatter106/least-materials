@@ -5,8 +5,8 @@ health: 240
 size: 1
 hasShadow: false
 requirements: [
-    coal/20
-    sand/4
+    coactal/10
+    cneodal/5
 ]
 category: defense
 research: copper-wall

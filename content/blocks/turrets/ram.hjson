@@ -42,19 +42,20 @@ shootType: {
     incendAmount: 1.1
 }
 requirements: [
-    copper/1200
-    lead/800
-    sand/1000
-    coal/1000
-    graphite/600
-    silicon/300
-    titanium/100
+    prc/130
+    cnoadal/100
+    coactal/40
+    graphite/450
+    silicon/210
+    brick/60
+    actilac/70
+    thare/30
 ]
 category: turret
 research: rke
 consumes: {
     liquid: {
         liquid: water
-        amount: 0.5
+        amount: 0.6
     }
 }

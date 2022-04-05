@@ -1,0 +1,21 @@
+type: BurnerGenerator
+name: Effective Burner
+description: Effective at earlier game.
+size: 1
+itemCapacity: 10
+hasItems: true
+minItemEfficiency: 1
+randomlyExplode: false
+itemDuration: 120
+powerProduction: 3.40
+consumes: {
+    items: [
+        coac/1
+    ]
+}
+requirements: [
+    prc/50
+    sand/10
+]
+category: power
+research: combustion-generator

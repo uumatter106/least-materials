@@ -2,16 +2,16 @@ name: Coal Conveyor
 type: StackConveyor
 
 description: Smells asphalt. It's fast as like the bridge one.
-health: 50
+health: 120
 speed: 0.6
 itemCapacity: 42
 
 requirements: [
-    copper/20
-    lead/10
-    coal/25
-    sand/8
-    graphite/12
+    prc/5
+    cnoadal/5
+    actilac/6
+    convecoal/10
+    thare/3
 ]
 
 research: coal-bridge-conveyor

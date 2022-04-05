@@ -4,10 +4,8 @@ description: Has a black integration and it's a junction.
 health: 210
 speed: 5.40
 requirements: [
-    copper/60
-    lead/50
-    coal/150
-    sand/100
+    prc/10
+    cnoadal/5
 ]
 category: distribution
 research: junction

@@ -1,7 +1,7 @@
 type: ItemTurret
 name: Lim
 description: It's a lemon maybe.
-health: 800
+health: 850
 size: 2
 reloadTime: 15.4
 ammoEjectBack: 1
@@ -28,12 +28,11 @@ ammoTypes: {
 	plastanium: artilleryPlastic 
 }
 requirements: [
-    copper/600
-    lead/400
-    coal/500
-    sand/250
-    graphite/300
-    titanium/100
+    prc/120
+    coac/80
+    cnoadal/60
+    graphite/180
+    actilac/60
 ]
 category: turret
 research: rke

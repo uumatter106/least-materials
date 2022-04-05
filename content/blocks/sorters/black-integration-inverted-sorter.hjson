@@ -1,6 +1,6 @@
 type: Sorter
 name: Black Integration Inverted Sorter
-health: 250
+health: 270
 invert: true
 update: true
 solid: true
@@ -9,11 +9,10 @@ group: transportation
 configurable: true
 unloadable: false
 requirements: [
-    copper/300
-    lead/200
-    graphite/60
-    coal/360
-    sand/250
+    prc/50
+    graphite/50
+    coactal/12
+    cnoadal/6
 ]
 category: distribution
 research: black-integration-sorter

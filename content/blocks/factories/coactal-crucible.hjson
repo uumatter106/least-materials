@@ -1,0 +1,44 @@
+name: Coactal Crucible
+type: GenericCrafter
+description:
+    '''
+    Mixes coalcoc and coal to coactal.
+    '''
+drawer: DrawBlock
+hasItems: true
+hasLiquids: true
+hasPower: true
+itemCapacity: 20
+liquidCapacity: 40
+solid: true
+# auto calculation (current: 360 hp)
+health: -1
+size: 3
+category: crafting
+research: brick-crucible
+requirements: [
+    prc/130
+    cnoadal/30
+    brick/80
+    graphite/20
+    silicon/10
+    titanium/10
+]
+consumes: {
+    power: 3
+    items: {
+        items: [
+            coalcoc/8
+            coal/12
+        ]
+    }
+    liquid: {
+        liquid: oil
+        amount: 0.02
+    }
+}
+outputItem: coactal/8
+craftTime: 120
+craftEffect: none
+updateEffect: none
+updateEffectChance: 0.04

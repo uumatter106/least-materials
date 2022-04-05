@@ -1,0 +1,37 @@
+name: Prc Crucible
+type: GenericCrafter
+description:
+    '''
+    Mixes copper and lead to prc.
+    '''
+drawer: DrawBlock
+hasItems: true
+hasLiquids: false
+hasPower: true
+itemCapacity: 35
+solid: true
+# auto calculation (current: 360 hp)
+health: -1
+size: 3
+category: crafting
+research: graphite-press
+requirements: [
+    copper/100
+    lead/80
+    sand/30
+    graphite/10
+]
+consumes: {
+    power: 1
+    items: {
+        items: [
+            copper/8
+            lead/8
+        ]
+    }
+}
+outputItem: prc/4
+craftTime: 120
+craftEffect: none
+updateEffect: none
+updateEffectChance: 0.04

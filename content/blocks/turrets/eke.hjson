@@ -7,13 +7,13 @@ description:
     It's stronger on ground.
     '''
 targetAir: false
-health: 625
+health: 675
 size: 3
 reloadTime: 0.8
 range: 400
 inaccuracy: 3
-rotatespeed: 10
-maxAmmo: 50
+rotatespeed: 9
+maxAmmo: 55
 category: turret
 
 ammoTypes: {
@@ -74,15 +74,13 @@ ammoTypes: {
 }
 
 requirements: [
-    copper/1800
-    lead/900
-    sand/600
-    coal/300
-    thorium/800
-    silicon/1000
-    graphite/600
-    metaglass/300
-    plastanium/200
+    prc/220
+    cnoadal/140
+    thorium/340
+    silicon/600
+    graphite/200
+    metaglass/145
+    plastanium/120
 ]
 
 category: turret

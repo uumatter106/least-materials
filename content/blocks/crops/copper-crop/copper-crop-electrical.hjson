@@ -13,9 +13,8 @@ consumes: {
     power: 36
 }
 requirements: [
-    copper/800
-    lead/500
-    titanium/400
+    prc/100
+    titanium/120
 ]
 outputItem: copper/6
 category: crafting

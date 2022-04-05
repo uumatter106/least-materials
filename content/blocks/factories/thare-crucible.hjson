@@ -1,0 +1,47 @@
+name: Thare Crucible
+type: GenericCrafter
+description:
+    '''
+    Mixes coal, copper, lead and titanium to thare.
+    '''
+drawer: DrawBlock
+hasItems: true
+hasLiquids: true
+hasPower: true
+itemCapacity: 60
+liquidCapacity: 80
+solid: true
+# auto calculation (current: 360 hp)
+health: -1
+size: 3
+category: crafting
+research: actilac-crucible
+requirements: [
+    prc/140
+    cnoadal/80
+    coactal/40
+    actilac/100
+    brick/80
+    graphite/60
+    silicon/40
+]
+consumes: {
+    power: 1
+    items: {
+        items: [
+            coal/16
+            copper/10
+            lead/10
+            titanium/10
+        ]
+    }
+    liquid: {
+        liquid: slag
+        amount: 0.05
+    }
+}
+outputItem: thare/6
+craftTime: 160
+craftEffect: none
+updateEffect: none
+updateEffectChance: 0.04

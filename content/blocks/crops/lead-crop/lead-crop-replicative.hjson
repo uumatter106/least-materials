@@ -13,18 +13,18 @@ consumes: {
     power: 120
 }
 requirements: [
-    copper/4000
-    lead/4000
-    titanium/4000
-    thorium/4000
-    graphite/4000
-    silicon/4000
-    coal/4000
-    sand/4000
-    metaglass/4000
-    plastanium/3000
-    surge-alloy/3000
-    scrap/2000
+    prc/300
+    thorium/600
+    graphite/450
+    silicon/600
+    coactal/100
+    cnoadal/150
+    metaglass/300
+    plastanium/200
+    surge-alloy/150
+    thare/120
+    coxy/80
+    scrap/500
 ]
 outputItem: lead/20
 category: crafting

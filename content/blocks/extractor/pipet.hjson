@@ -14,7 +14,8 @@ size: 1
 pumpAmount: 0.05
 consumes: {}
 requirements: [
-    metaglass/120
+    prc/10
+    metaglass/40
 ]
 # powerUse: 1.0
 category: production

@@ -1,12 +1,12 @@
 type: Wall
-name: Black Integration Wall
+name: Big Black Integration Wall
 description: 2x2 sized. Integrates very well.
-health: 960
+health: 860
 size: 2
 hasShadow: false
 requirements: [
-    coal/100
-    sand/20
+    coactal/40
+    cneodal/25
 ]
 category: defense
 research: black-integration-wall-s

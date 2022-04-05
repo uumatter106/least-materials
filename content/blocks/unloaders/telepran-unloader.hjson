@@ -1,0 +1,15 @@
+name: Coal Unloader
+description: Unloads items nearly instant from unloadable resources.
+type: Unloader
+health: 400
+requirements: [
+    prc/25
+    coalcoc/15
+    thare/10
+    acrilac/30
+    graphite/30
+]
+category: effect
+speed: 0.10
+group: transportation
+research: coal-unloader

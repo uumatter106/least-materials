@@ -12,11 +12,11 @@ size: 3
 pumpAmount: 0.5
 consumes: {}
 requirements: [
-    copper/600
-    lead/400
-    graphite/240
+    prc/180
+    graphite/180
+    thare/30
     silicon/200
-    metaglass/1200
+    metaglass/300
 ]
 # powerUse: 1.0
 category: production

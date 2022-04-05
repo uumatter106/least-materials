@@ -1,0 +1,39 @@
+name: Convecoal Crucible
+type: GenericCrafter
+description:
+    '''
+    Mixes titanium and coactal to convecoal.
+    '''
+drawer: DrawBlock
+hasItems: true
+hasLiquids: false
+hasPower: true
+itemCapacity: 36
+solid: true
+# auto calculation (current: 360 hp)
+health: -1
+size: 3
+category: crafting
+research: actilac-crucible
+requirements: [
+    prc/100
+    cnoadal/30
+    graphite/20
+    silicon/70
+    titanium/80
+]
+consumes: {
+    power: 3
+    items: {
+        items: [
+            coactal/4
+            actilac/8
+            titanium/4
+        ]
+    }
+}
+outputItem: convecoal/3
+craftTime: 30
+craftEffect: none
+updateEffect: none
+updateEffectChance: 0.04

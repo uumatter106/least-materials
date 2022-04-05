@@ -28,14 +28,15 @@ consumes: {
     }
 }
 requirements: [
-    copper/3000
-    lead/1600
-    coal/1300
-    sand/1200
-    graphite/1000
-    silicon/600
-    titanium/1600
-    thorium/1200
+    prc/400
+    coactal/100
+    cnoadal/180
+    graphite/500
+    silicon/350
+    actilac/320
+    coxy/420
+    thare/50
+    thorium/600
 ]
 category: production
 research: coke-drill

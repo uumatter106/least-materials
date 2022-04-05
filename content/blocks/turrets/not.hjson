@@ -2,7 +2,7 @@ type: ItemTurret
 name: Not
 description: It does not allow enemies to destroy your core. Less requirements.
 targetAir: true
-health: 130
+health: 135
 size: 1
 reloadTime: 3.5
 range: 120
@@ -33,10 +33,9 @@ ammoTypes: {
 }
 
 requirements: [
-    copper/100
-    lead/60
-    sand/30
-    coal/10
+    prc/30
+    cnoadal/10
+    coac/5
 ]
 
 category: turret

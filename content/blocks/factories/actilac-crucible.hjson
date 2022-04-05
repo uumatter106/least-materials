@@ -1,0 +1,39 @@
+name: Actilac Crucible
+type: GenericCrafter
+description:
+    '''
+    Mixes coac, blast compound and titanium to actilac.
+    '''
+drawer: DrawBlock
+hasItems: true
+hasLiquids: false
+hasPower: false
+itemCapacity: 35
+solid: true
+# auto calculation (current: 360 hp)
+health: -1
+size: 3
+category: crafting
+research: cnoadal-crucible
+requirements: [
+    prc/60
+    cnoadal/20
+    coac/70
+    graphite/40
+    silicon/30
+    titanium/30
+]
+consumes: {
+    items: {
+        items: [
+            coac/12
+            blast-compound/4
+            titanium/6
+        ]
+    }
+}
+outputItem: actilac/8
+craftTime: 60
+craftEffect: none
+updateEffect: none
+updateEffectChance: 0.04

@@ -35,12 +35,13 @@ ammoTypes: {
 }
 
 requirements: [
-    copper/1200
-    lead/800
-    coal/600
-    sand/500
-    graphite/600
-    silicon/2000
+    prc/170
+    coalcoc/90
+    cnoadal/30
+    graphite/240
+    actilac/400
+    thare/120
+    silicon/600
 ]
 
 category: turret

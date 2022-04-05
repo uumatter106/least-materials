@@ -7,15 +7,16 @@ description:
     Requirement costs high.
     '''
 health: 30
-range: 6
+range: 11
 hasPower: false
 placeableLiquid: false
 transportTime: 0.2
-itemCapacity: 3
+itemCapacity: 25
 requirements: [
-    copper/16
-    lead/8
-    coal/6
+    prc/12
+    coac/9
+    thare/12
+    convecoal/10
 ]
 category: distribution
 research: bridge-conveyor

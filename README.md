@@ -42,3 +42,13 @@ Hopefully added rna and dna turrets. See them you may like hopely.
 Added black integration pieces. Each one completes a puzzle.
 Black integration puzzlepieces are for making a puzzle, schematic.
 You could use black integration blocks in integration of schematics, that is what did i aim hopely.
+
+# With v1.29.3
+1 => 2x2 black integration wall renamed to "Big Black Integration Wall"
+2 => New items added: actilac, brick, cnoadal, coac, coactal, coalcoc, convecoal, coxy, prc, thare
+3 => effective burner added
+4 => coal & telepran unloader added
+5 => crucibles of new items added
+6 => Existings constructs in old versions, includes some requirements of new materials.
+ * * * Hopefully, constructing time a lot decreased.
+ * * * But building requirements are a lot changed.

@@ -18,11 +18,10 @@ consumes: {
     }
 }
 requirements: [
-    copper/1000
-    lead/800
-    titanium/360
-    thorium/300
-    coal/240
+    prc/130
+    actilac/100
+    coalcoc/45
+    thorium/200
 ]
 outputItem: thorium/3
 category: crafting

@@ -6,13 +6,12 @@ range: 40
 hasPower: false
 placeableLiquid: true
 requirements: [
-    copper/1000
-    lead/800
-    coal/650
-    graphite/300
-    metaglass/1200
-    silicon/400
-    titanium/500
+    prc/155
+    coactal/40
+    graphite/220
+    metaglass/700
+    silicon/260
+    coxy/200
     thorium/200
 ]
 category: liquid

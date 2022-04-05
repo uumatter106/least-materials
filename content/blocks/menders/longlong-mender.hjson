@@ -14,14 +14,13 @@ consumes: {
     power: 20
 }
 requirements: [
-    copper/1600
-    lead/1000
-    coal/800
-    sand/2000
-    metaglass/600
-    silicon/1600
-    titanium/1000
-    thorium/500
+    prc/160
+    cnoadal/200
+    metaglass/100
+    silicon/60
+    actilac/100
+    coxy/20
+    thorium/40
 ]
 category: effect
 research: coal-mender

@@ -19,10 +19,8 @@ consumes: {
     }
 }
 requirements: [
-    copper/300
-    lead/200
-    coal/100
-    sand/400
+    prc/50
+    cnoadal/60
 ]
 category: effect
 research: mender

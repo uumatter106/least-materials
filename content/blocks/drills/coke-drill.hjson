@@ -24,13 +24,12 @@ consumes: {
     }
 }
 requirements: [
-    copper/1500
-    lead/800
-    titanium/1000
-    coal/3000
-    sand/800
-    graphite/400
-    silicon/100
+    prc/160
+    actilac/400
+    coactal/80
+    cnoadal/50
+    graphite/250
+    silicon/60
 ]
 category: production
 research: coal-drill

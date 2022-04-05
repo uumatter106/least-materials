@@ -22,11 +22,9 @@ consumes: {
 }
 liquidBoostIntensity: 2.4
 requirements: [
-    copper/500
-    lead/400
-    coal/400
-    sand/200
-    graphite/300
+    prc/60
+    cnoadal/40
+    graphite/120
     silicon/100
 ]
 category: turret

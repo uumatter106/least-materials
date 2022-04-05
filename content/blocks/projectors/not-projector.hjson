@@ -21,12 +21,11 @@ consumes: {
     }
 }
 requirements: [
-    copper/300
-    lead/180
-    sand/90
-    coal/30
+    prc/120
+    cnoadal/50
+    coac/15
     graphite/50
-    silicon/20
+    silicon/30
 ]
 category: effect
 research: force-projector

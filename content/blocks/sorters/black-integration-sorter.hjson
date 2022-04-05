@@ -9,11 +9,10 @@ group: transportation
 configurable: true
 unloadable: false
 requirements: [
-    copper/240
-    lead/160
+    prc/40
     graphite/40
-    coal/360
-    sand/250
+    coactal/10
+    cnoadal/4
 ]
 category: distribution
 research: sorter

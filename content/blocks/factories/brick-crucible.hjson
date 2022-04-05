@@ -1,0 +1,38 @@
+name: Brick Crucible
+type: GenericCrafter
+description:
+    '''
+    Mixes blast compound and cnoadal to brick.
+    '''
+drawer: DrawBlock
+hasItems: true
+hasLiquids: false
+hasPower: false
+itemCapacity: 40
+solid: true
+# auto calculation (current: 360 hp)
+health: -1
+size: 3
+category: crafting
+research: cnoadal-crucible
+requirements: [
+    prc/120
+    cnoadal/60
+    coalcoc/40
+    graphite/30
+    silicon/60
+    titanium/40
+]
+consumes: {
+    items: {
+        items: [
+            blast-compound/3
+            cnoadal/8
+        ]
+    }
+}
+outputItem: brick/5
+craftTime: 120
+craftEffect: none
+updateEffect: none
+updateEffectChance: 0.04

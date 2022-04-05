@@ -13,9 +13,8 @@ consumes: {
     power: 24
 }
 requirements: [
-    copper/300
-    lead/100
-    sand/80
+    prc/60
+    sand/40
 ]
 outputItem: sand/8
 category: crafting

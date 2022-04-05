@@ -21,13 +21,12 @@ consumes: {
     }
 }
 requirements: [
-    copper/2000
-    lead/1200
-    coal/1000
-    graphite/1440
-    silicon/1500
-    titanium/200
-    thorium/600
+    prc/200
+    coalcoc/50
+    graphite/300
+    silicon/250
+    actilac/120
+    thorium/350
 ]
 category: effect
 research: not-projector
