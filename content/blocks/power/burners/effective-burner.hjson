@@ -9,9 +9,11 @@ randomlyExplode: false
 itemDuration: 120
 powerProduction: 3.40
 consumes: {
-    items: [
-        coac/1
-    ]
+    items: {
+        items: [
+            coac/1
+        ]
+    }
 }
 requirements: [
     prc/50
