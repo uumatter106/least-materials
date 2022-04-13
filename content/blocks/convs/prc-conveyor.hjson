@@ -4,8 +4,8 @@ description: Made of prc material.
 health: 80
 hasItems: true
 itemCapacity: 5
-speed: 0.016
-# item/s ~= speed * 60 + 8,5
+speed: 0.031
+# item/s ~= speed * 60 + 8,5 (approximately)
 requirements: [
     prc/3
 ]
