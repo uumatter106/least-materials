@@ -52,3 +52,6 @@ You could use black integration blocks in integration of schematics, that is wha
 6 => Existings constructs in old versions, includes some requirements of new materials.
  * * * Hopefully, constructing time a lot decreased.
  * * * But building requirements are a lot changed.
+
+# With 1.29.91
+=> Added new conveyors: prc & actilac & black integration conveyor.

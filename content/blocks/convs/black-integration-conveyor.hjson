@@ -1,0 +1,13 @@
+type: Conveyor
+name: Black Integration Conveyor
+description: Could be used in blacktype, black integration.
+health: 220
+hasItems: true
+itemCapacity: 5
+speed: 0.36
+# item/s ~= speed * 60 - 8,5
+requirements: [
+    prc/3
+]
+category: distribution
+research: conveyor

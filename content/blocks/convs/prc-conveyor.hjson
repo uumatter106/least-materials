@@ -1,0 +1,13 @@
+type: Conveyor
+name: Prc Conveyor
+description: Made of prc material.
+health: 80
+hasItems: true
+itemCapacity: 5
+speed: 0.016
+# item/s ~= speed * 60 + 8,5
+requirements: [
+    prc/3
+]
+category: distribution
+research: conveyor
