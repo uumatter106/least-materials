@@ -8,6 +8,8 @@ speed: 0.14
 # item/s ~= speed * 60 + 8,5
 requirements: [
     prc/3
+    cnoadal/3
+    actilac/4
 ]
 category: distribution
 research: prc-conveyor
