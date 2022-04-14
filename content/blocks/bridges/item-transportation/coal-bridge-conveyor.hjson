@@ -6,7 +6,7 @@ description:
     But can't be placeable on sea.
     Requirement costs high.
     '''
-health: 30
+health: 150
 range: 11
 hasPower: false
 placeableLiquid: false
