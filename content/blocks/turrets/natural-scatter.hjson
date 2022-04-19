@@ -12,35 +12,59 @@ maxAmmo: 120
 
 ammoTypes: {
     copper: {
-        type: FlakBulletType
+        type: BasicBulletType
         speed: 6
         damage: 12
-        splashDamage: 14
-        splashDamageRadius: 38
+        #splashDamage: 14
+        #splashDamageRadius: 38
+        fragBullets: 4
+        fragBullet: {
+            type: BasicBulletType
+            speed: 5
+            damage: 10
+        }
         ammoMultiplier: 4
     }
     sand: {
-        type: FlakBulletType
+        type: BasicBulletType
         speed: 7
         damage: 8
-        splashDamage: 20
-        splashDamageRadius: 46
+        #splashDamage: 20
+        #splashDamageRadius: 46
+        fragBullets: 5
+        fragBullet: {
+            type: BasicBulletType
+            speed: 6
+            damage: 15
+        }
         ammoMultiplier: 3
     }
     coal: {
-        type: FlakBulletType
+        type: BasicBulletType
         speed: 8
         damage: 16
-        splashDamage: 28
-        splashDamageRadius: 26
+        #splashDamage: 28
+        #splashDamageRadius: 26
+        fragBullets: 6
+        fragBullet: {
+            type: BasicBulletType
+            speed: 7
+            damage: 20
+        }
         ammoMultiplier: 7
     }
     metaglass: {
-        type: FlakBulletType
+        type: BasicBulletType
         speed: 9
         damage: 31
-        splashDamage: 40
-        splashDamageRadius: 15
+        #splashDamage: 40
+        #splashDamageRadius: 15
+        fragBullets: 6
+        fragBullet: {
+            type: BasicBulletType
+            speed: 4
+            damage: 26
+        }
         ammoMultiplier: 1
     }
 }

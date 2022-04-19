@@ -1,4 +1,4 @@
-type: DeflectorWall
+type: Wall
 name: Thare Medium Wall
 description: 2x2 sized. Made of thare material.
 health: 5330

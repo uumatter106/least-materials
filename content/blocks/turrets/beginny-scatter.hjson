@@ -20,7 +20,7 @@ ammoTypes: {
         fragBullet: {
             type: BasicBulletType
             speed: 2
-            damage: 7
+            damage: 4
         }
         ammoMultiplier: 3
     }
@@ -30,7 +30,7 @@ ammoTypes: {
         damage: 4
         #splashDamage: 10
         #splashDamageRadius: 42
-        fragBullets: 5
+        fragBullets: 4
         fragBullet: {
             type: BasicBulletType
             speed: 3
@@ -44,11 +44,11 @@ ammoTypes: {
         damage: 8
         #splashDamage: 14
         #splashDamageRadius: 22
-        fragBullets: 6
+        fragBullets: 5
         fragBullet: {
             type: BasicBulletType
             speed: 4
-            damage: 14
+            damage: 11
         }
         ammoMultiplier: 6
     }

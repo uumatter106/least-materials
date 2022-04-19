@@ -53,12 +53,16 @@ You could use black integration blocks in integration of schematics, that is wha
  * * * Hopefully, constructing time a lot decreased.
  * * * But building requirements are a lot changed.
 
-# With 1.29.91
+# With v1.29.91
 => Added new conveyors: prc & actilac & black integration conveyor.
 
-# With 1.30.0
+# With v1.30.0
 => Added new walls: prc-variants(3), brick-variants(4), thare-variants(3)
 => Added new turrets: scatter-variants[beginny-scatter, flaky-scatter, natural-scatter]
 => Increased pipet health
 => Beginning level crops which doesn't need to prc-like complements (prc, coac, cnoadal...)
     requirements decreased instead of sand crop natural
+
+# With v1.30.(1-2)
+=> Flak bullets changed to frag bullets of type of basic bullet type.
+=> Thare wall variants fixed.

@@ -1,4 +1,4 @@
-type: DeflectorWall
+type: Wall
 name: Thare Small Wall
 description: 1x1 sized. Made of thare material.
 health: 1340
