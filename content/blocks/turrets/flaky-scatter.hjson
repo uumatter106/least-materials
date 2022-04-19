@@ -1,11 +1,11 @@
 type: ItemTurret
 name: Flaky Scatter
-description: May be this flak is what does scatter shoot ..
+description: May be this flak is what does scatter shoot .. but frag.
 targetAir: false
 health: 460
 size: 2
 reloadTime: 2.1
-range: 130
+range: 260
 inaccuracy: 2
 rotatespeed: 48
 maxAmmo: 150
@@ -13,7 +13,7 @@ maxAmmo: 150
 ammoTypes: {
     copper: {
         type: FlakBulletType
-        speed: 6
+        speed: 7
         damage: 24
         splashDamage: 28
         splashDamageRadius: 42
@@ -21,7 +21,7 @@ ammoTypes: {
     }
     sand: {
         type: FlakBulletType
-        speed: 7
+        speed: 8
         damage: 16
         splashDamage: 40
         splashDamageRadius: 50

@@ -5,33 +5,51 @@ targetAir: true
 health: 100
 size: 2
 reloadTime: 6.8
-range: 60
+range: 120
 inaccuracy: 5
 rotatespeed: 20
 maxAmmo: 50
 
 ammoTypes: {
     copper: {
-        type: FlakBulletType
-        speed: 2
+        type: BasicBulletType
+        speed: 3
         damage: 6
-        splashDamage: 7
+        #splashDamage: 7
+        fragBullets: 3
+        fragBullet: {
+            type: BasicBulletType
+            speed: 2
+            damage: 7
+        }
         ammoMultiplier: 3
     }
     sand: {
-        type: FlakBulletType
-        speed: 3
+        type: BasicBulletType
+        speed: 4
         damage: 4
-        splashDamage: 10
-        splashDamageRadius: 42
+        #splashDamage: 10
+        #splashDamageRadius: 42
+        fragBullets: 5
+        fragBullet: {
+            type: BasicBulletType
+            speed: 3
+            damage: 10
+        }
         ammoMultiplier: 2
     }
     coal: {
-        type: FlakBulletType
+        type: BasicBulletType
         speed: 5
         damage: 8
-        splashDamage: 14
-        splashDamageRadius: 22
+        #splashDamage: 14
+        #splashDamageRadius: 22
+        fragBullets: 6
+        fragBullet: {
+            type: BasicBulletType
+            speed: 4
+            damage: 14
+        }
         ammoMultiplier: 6
     }
 }

@@ -5,7 +5,7 @@ targetAir: true
 health: 240
 size: 2
 reloadTime: 4.3
-range: 100
+range: 200
 inaccuracy: 3
 rotatespeed: 44
 maxAmmo: 120
@@ -13,7 +13,7 @@ maxAmmo: 120
 ammoTypes: {
     copper: {
         type: FlakBulletType
-        speed: 4
+        speed: 6
         damage: 12
         splashDamage: 14
         splashDamageRadius: 38
@@ -21,7 +21,7 @@ ammoTypes: {
     }
     sand: {
         type: FlakBulletType
-        speed: 6
+        speed: 7
         damage: 8
         splashDamage: 20
         splashDamageRadius: 46
