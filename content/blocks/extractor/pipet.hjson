@@ -6,7 +6,7 @@ description:
     So water comes up to earth slowly.
     Doesn't require any power hopely.
     '''
-health: 10
+health: 30
 result: water
 hasPower: false
 hasLiquids: true

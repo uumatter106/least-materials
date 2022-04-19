@@ -1,0 +1,60 @@
+type: ItemTurret
+name: Flaky Scatter
+description: May be this flak is what does scatter shoot ..
+targetAir: false
+health: 460
+size: 2
+reloadTime: 2.1
+range: 130
+inaccuracy: 2
+rotatespeed: 48
+maxAmmo: 150
+
+ammoTypes: {
+    copper: {
+        type: FlakBulletType
+        speed: 6
+        damage: 24
+        splashDamage: 28
+        splashDamageRadius: 42
+        ammoMultiplier: 5
+    }
+    sand: {
+        type: FlakBulletType
+        speed: 7
+        damage: 16
+        splashDamage: 40
+        splashDamageRadius: 50
+        ammoMultiplier: 4
+    }
+    coal: {
+        type: FlakBulletType
+        speed: 9
+        damage: 32
+        splashDamage: 56
+        splashDamageRadius: 30
+        ammoMultiplier: 8
+    }
+    metaglass: {
+        type: FlakBulletType
+        speed: 10
+        damage: 62
+        splashDamage: 80
+        splashDamageRadius: 19
+        ammoMultiplier: 2
+    }
+}
+
+requirements: [
+    prc/50
+    coactal/30
+    cnoadal/20
+    actilac/60
+    convecoal/20
+    thare/20
+    thorium/80
+]
+
+category: turret
+research: natural-scatter
+

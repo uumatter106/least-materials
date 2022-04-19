@@ -1,0 +1,48 @@
+type: ItemTurret
+name: Beginny Scatter
+description: One could use it at beginning scene of game.
+targetAir: true
+health: 100
+size: 2
+reloadTime: 6.8
+range: 60
+inaccuracy: 5
+rotatespeed: 20
+maxAmmo: 50
+
+ammoTypes: {
+    copper: {
+        type: FlakBulletType
+        speed: 2
+        damage: 6
+        splashDamage: 7
+        ammoMultiplier: 3
+    }
+    sand: {
+        type: FlakBulletType
+        speed: 3
+        damage: 4
+        splashDamage: 10
+        splashDamageRadius: 42
+        ammoMultiplier: 2
+    }
+    coal: {
+        type: FlakBulletType
+        speed: 5
+        damage: 8
+        splashDamage: 14
+        splashDamageRadius: 22
+        ammoMultiplier: 6
+    }
+}
+
+requirements: [
+    copper/40
+    lead/20
+    coal/10
+    sand/10
+]
+
+category: turret
+research: scatter
+

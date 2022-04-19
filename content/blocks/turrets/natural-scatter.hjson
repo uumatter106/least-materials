@@ -1,0 +1,56 @@
+type: ItemTurret
+name: Natural Scatter
+description: Like at scatter. But natural and useful hopely. :)
+targetAir: true
+health: 240
+size: 2
+reloadTime: 4.3
+range: 100
+inaccuracy: 3
+rotatespeed: 44
+maxAmmo: 120
+
+ammoTypes: {
+    copper: {
+        type: FlakBulletType
+        speed: 4
+        damage: 12
+        splashDamage: 14
+        splashDamageRadius: 38
+        ammoMultiplier: 4
+    }
+    sand: {
+        type: FlakBulletType
+        speed: 6
+        damage: 8
+        splashDamage: 20
+        splashDamageRadius: 46
+        ammoMultiplier: 3
+    }
+    coal: {
+        type: FlakBulletType
+        speed: 8
+        damage: 16
+        splashDamage: 28
+        splashDamageRadius: 26
+        ammoMultiplier: 7
+    }
+    metaglass: {
+        type: FlakBulletType
+        speed: 9
+        damage: 31
+        splashDamage: 40
+        splashDamageRadius: 15
+        ammoMultiplier: 1
+    }
+}
+
+requirements: [
+    prc/30
+    coac/20
+    cnoadal/10
+]
+
+category: turret
+research: beginny-scatter
+

@@ -1,0 +1,11 @@
+type: Wall
+name: Brick Fourth Wall
+description: 4x4 sized. Made of brick material.
+health: 36870
+size: 4
+hasShadow: false
+requirements: [
+    brick/190
+]
+category: defense
+research: brick-large-wall

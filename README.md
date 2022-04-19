@@ -55,3 +55,10 @@ You could use black integration blocks in integration of schematics, that is wha
 
 # With 1.29.91
 => Added new conveyors: prc & actilac & black integration conveyor.
+
+# With 1.30.0
+=> Added new walls: prc-variants(3), brick-variants(4), thare-variants(3)
+=> Added new turrets: scatter-variants[beginny-scatter, flaky-scatter, natural-scatter]
+=> Increased pipet health
+=> Beginning level crops which doesn't need to prc-like complements (prc, coac, cnoadal...)
+    requirements decreased instead of sand crop natural

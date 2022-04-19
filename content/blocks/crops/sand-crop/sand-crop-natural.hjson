@@ -11,7 +11,7 @@ craftTime: 180
 updateEffect: smeltsmoke
 consumes: {}
 requirements: [
-    copper/60
+    copper/70
 ]
 outputItem: sand/3
 category: crafting

@@ -1,0 +1,11 @@
+type: Wall
+name: Brick Medium Wall
+description: 2x2 sized. Made of brick material.
+health: 9300
+size: 2
+hasShadow: false
+requirements: [
+    brick/45
+]
+category: defense
+research: brick-small-wall

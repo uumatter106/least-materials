@@ -1,0 +1,11 @@
+type: Wall
+name: Brick Small Wall
+description: 1x1 sized. Made of brick material.
+health: 2300
+size: 1
+hasShadow: false
+requirements: [
+    brick/12
+]
+category: defense
+research: thare-small-wall

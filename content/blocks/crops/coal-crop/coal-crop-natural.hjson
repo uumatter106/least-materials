@@ -12,8 +12,8 @@ updateEffect: smeltsmoke
 consumes: {}
 # Don't require prc!
 requirements: [
-    copper/150
-    lead/70
+    copper/80
+    lead/50
 ]
 outputItem: coal/3
 category: crafting

@@ -1,0 +1,11 @@
+type: Wall
+name: Brick Large Wall
+description: 3x3 sized. Made of brick material.
+health: 20750
+size: 3
+hasShadow: false
+requirements: [
+    brick/105
+]
+category: defense
+research: brick-medium-wall

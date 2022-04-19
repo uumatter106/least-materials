@@ -1,0 +1,11 @@
+type: Wall
+name: Prc Medium Wall
+description: 2x2 sized. Made of prc material.
+health: 2650
+size: 2
+hasShadow: false
+requirements: [
+    prc/30
+]
+category: defense
+research: prc-small-wall

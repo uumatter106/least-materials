@@ -1,0 +1,11 @@
+type: DeflectorWall
+name: Thare Medium Wall
+description: 2x2 sized. Made of thare material.
+health: 5330
+size: 2
+hasShadow: false
+requirements: [
+    thare/26
+]
+category: defense
+research: thare-small-wall

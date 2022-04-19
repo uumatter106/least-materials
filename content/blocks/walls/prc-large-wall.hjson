@@ -1,0 +1,11 @@
+type: Wall
+name: Prc Large Wall
+description: 3x3 sized. Made of prc material.
+health: 5370
+size: 3
+hasShadow: false
+requirements: [
+    prc/70
+]
+category: defense
+research: prc-medium-wall

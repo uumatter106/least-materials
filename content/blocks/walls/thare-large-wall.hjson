@@ -1,0 +1,11 @@
+type: DeflectorWall
+name: Thare Large Wall
+description: 3x3 sized. Made of thare material.
+health: 12460
+size: 3
+hasShadow: false
+requirements: [
+    thare/60
+]
+category: defense
+research: thare-medium-wall

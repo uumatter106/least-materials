@@ -1,0 +1,11 @@
+type: DeflectorWall
+name: Thare Small Wall
+description: 1x1 sized. Made of thare material.
+health: 1340
+size: 1
+hasShadow: false
+requirements: [
+    thare/7
+]
+category: defense
+research: prc-small-wall

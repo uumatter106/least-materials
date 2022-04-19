@@ -1,0 +1,11 @@
+type: Wall
+name: Prc Small Wall
+description: 1x1 sized. Made of prc material.
+health: 650
+size: 1
+hasShadow: false
+requirements: [
+    prc/8
+]
+category: defense
+research: copper-wall
