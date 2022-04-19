@@ -63,6 +63,7 @@ You could use black integration blocks in integration of schematics, that is wha
 => Beginning level crops which doesn't need to prc-like complements (prc, coac, cnoadal...)
     requirements decreased instead of sand crop natural
 
-# With v1.30.(1-2)
+# With v1.30.(1-3)
 => Flak bullets changed to frag bullets of type of basic bullet type.
 => Thare wall variants fixed.
+=> Requirements of new turrets buffed with increasing.

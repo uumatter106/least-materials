@@ -70,9 +70,9 @@ ammoTypes: {
 }
 
 requirements: [
-    prc/30
-    coac/20
-    cnoadal/10
+    prc/50
+    coac/40
+    cnoadal/30
 ]
 
 category: turret

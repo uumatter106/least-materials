@@ -70,13 +70,13 @@ ammoTypes: {
 }
 
 requirements: [
-    prc/50
-    coactal/30
-    cnoadal/20
-    actilac/60
-    convecoal/20
-    thare/20
-    thorium/80
+    prc/70
+    coactal/50
+    cnoadal/50
+    actilac/80
+    convecoal/40
+    thare/30
+    thorium/90
 ]
 
 category: turret
