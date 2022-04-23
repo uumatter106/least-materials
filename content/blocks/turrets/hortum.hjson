@@ -1,0 +1,36 @@
+type: LiquidTurret
+name: Hortum
+description: "Extinguishes fire hopely, via hortum! ---+=| ::>>:: (High Speed Water)"
+health: 380
+size: 2
+range: 250
+reloadTime: 15
+shootSound: shoot
+shootCone: 400
+inaccuracy: 3
+rotateSpeed: 150
+targetAir: false
+targetGround: true
+recoilAmount: 1
+ammo: {
+    water: {
+        type: LiquidBulletType
+        damage: 30
+        knockback: 120
+        lifetime: 65
+        pierce: true
+        pierceCap: 14
+        liquid: water
+        status: freezing
+        statusDuration: 30
+    }
+}
+requirements: [
+    prc/40
+    cnoadal/10
+    coac/45
+    actilac/20
+    metaglass/30
+]
+category: turret
+research: wave

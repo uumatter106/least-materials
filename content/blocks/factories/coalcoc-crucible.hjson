@@ -8,7 +8,7 @@ drawer: DrawBlock
 hasItems: true
 hasLiquids: false
 hasPower: false
-itemCapacity: 25
+itemCapacity: 55
 solid: true
 # auto calculation (current: 360 hp)
 health: -1

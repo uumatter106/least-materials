@@ -1,0 +1,34 @@
+type: LiquidTurret
+name: Hypo
+description: Cleans around himself.
+health: 130
+size: 1
+range: 90
+reloadTime: 80
+shootSound: shoot
+shootCone: 150
+inaccuracy: 1
+rotateSpeed: 130
+targetAir: false
+targetGround: true
+recoilAmount: 1
+ammo: {
+    water: {
+        type: LiquidBulletType
+        damage: 6
+        knockback: 50
+        lifetime: 45
+        pierce: true
+        pierceCap: 5
+        liquid: water
+        status: freezing
+        statusDuration: 6
+    }
+}
+requirements: [
+    prc/20
+    cnoadal/10
+    coalcoc/15
+]
+category: turret
+research: duo

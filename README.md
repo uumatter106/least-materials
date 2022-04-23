@@ -67,3 +67,10 @@ You could use black integration blocks in integration of schematics, that is wha
 => Flak bullets changed to frag bullets of type of basic bullet type.
 => Thare wall variants fixed.
 => Requirements of new turrets buffed with increasing.
+
+
+# With v1.30.5
+=> New turrets added: cuo, hypo, hortum.
+=> maxItem parameters increased of: coac-crucible, coalcoc-crucible and coactal-crucible.
+-> ..that prevents unstable producing of crucibles.
+=> ct-bullet added.

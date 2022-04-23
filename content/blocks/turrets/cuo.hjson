@@ -1,0 +1,44 @@
+type: ItemTurret
+name: Cuo
+description: Fires ct-bullet.
+targetAir: false
+health: 120
+size: 1
+reloadTime: 12.1
+range: 70
+inaccuracy: 0
+rotatespeed: 40
+maxAmmo: 40
+category: turret
+
+ammoTypes: {
+    copper: {
+        type: BasicBulletType
+        bulletSprite: "least-materials-ct-bullet"
+        speed: 3
+        damage: 6
+        homingPower: 1
+        homingRange: 45
+        fragBullets: 3
+        fragBullet: {
+            type: BasicBulletType
+            bulletSprite: "least-materials-ct-bullet"
+            speed: 2
+            damage: 8
+            homingPower: 1
+            homingRange: 30
+            fragBullets: 3
+            fragBullet: "standardHoming"
+        }
+        ammoMultiplier: 3
+    }
+}
+
+requirements: [
+    copper/30
+    lead/20
+    sand/10
+]
+
+category: turret
+research: not
