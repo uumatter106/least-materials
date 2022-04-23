@@ -14,7 +14,7 @@ rotateSpeed: 150
 targetAir: false
 targetGround: true
 recoilAmount: 1
-ammo: {
+ammoTypes: {
     water: {
         type: LiquidBulletType
         damage: 30

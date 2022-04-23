@@ -1,5 +1,5 @@
 type: LiquidTurret
-name: Hypo
+name: Cleaner
 description: Cleans around himself.
 health: 130
 size: 1
@@ -14,7 +14,7 @@ rotateSpeed: 130
 targetAir: false
 targetGround: true
 recoilAmount: 1
-ammo: {
+ammoTypes: {
     water: {
         type: LiquidBulletType
         damage: 6
