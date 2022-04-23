@@ -5,6 +5,7 @@ health: 380
 size: 2
 range: 250
 reloadTime: 15
+liquidCapacity: 70
 shootSound: shoot
 shootCone: 400
 inaccuracy: 3
