@@ -4,7 +4,7 @@ description: Fires ct-bullet.
 targetAir: false
 health: 120
 size: 1
-reloadTime: 12.1
+reloadTime: 21.4
 range: 70
 inaccuracy: 0
 rotatespeed: 40
@@ -16,7 +16,7 @@ ammoTypes: {
         type: BasicBulletType
         bulletSprite: "least-materials-ct-bullet"
         speed: 3
-        damage: 6
+        damage: 7
         homingPower: 1
         homingRange: 45
         fragBullets: 3
@@ -24,7 +24,7 @@ ammoTypes: {
             type: BasicBulletType
             bulletSprite: "least-materials-ct-bullet"
             speed: 2
-            damage: 8
+            damage: 9
             homingPower: 1
             homingRange: 30
             fragBullets: 3
@@ -41,4 +41,4 @@ requirements: [
 ]
 
 category: turret
-research: not
+research: duo
