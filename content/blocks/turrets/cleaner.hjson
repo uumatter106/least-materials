@@ -4,7 +4,7 @@ description: Cleans around himself.
 health: 130
 size: 1
 range: 90
-reloadTime: 80
+reloadTime: 77
 hasLiquids: true
 liquidCapacity: 30
 shootSound: shoot

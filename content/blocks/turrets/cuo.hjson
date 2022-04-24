@@ -19,7 +19,7 @@ ammoTypes: {
         damage: 7
         homingPower: 1
         homingRange: 45
-        fragBullets: 3
+        fragBullets: 2
         fragBullet: {
             type: BasicBulletType
             bulletSprite: "least-materials-ct-bullet"

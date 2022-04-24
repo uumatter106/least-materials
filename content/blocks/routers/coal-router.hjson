@@ -1,7 +1,7 @@
 type: Router
 name: Coal Router
 description: "Very fast, but not defenseable."
-health: 10
+health: 30
 speed: 0.40
 capacity: 3
 size: 1
