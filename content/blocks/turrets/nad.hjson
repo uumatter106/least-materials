@@ -3,7 +3,7 @@ name: Nad
 description: It's not a molecule but a turret. Needs lots of silicons.
 health: 700
 size: 3
-reloadTime: 36
+reloadTime: 35
 ammoUseEffect: bigShockwave
 shootSound: shootBig
 inaccuracy: 0
@@ -21,7 +21,7 @@ consumes: {
 ammoTypes: {
     silicon: {
         speed: 16
-        damage: 50
+        damage: 70
         width: 9
         height: 17
         lifetime: 40

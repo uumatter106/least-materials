@@ -16,18 +16,27 @@ ammoTypes: {
         type: BasicBulletType
         speed: 5
         damage: 10
+        splashDamage: 5
+        splashDamageRadius: 10
+        hitEffect: absorb
         ammoMultiplier: 8
     }
     sand: {
         type: BasicBulletType
         speed: 6
         damage: 4
+        splashDamage: 2
+        splashDamageRadius: 26
+        hitEffect: absorb
         ammoMultiplier: 4
     }
     coal: {
         type: BasicBulletType
         speed: 7
         damage: 16
+        splashDamage: 10
+        splashDamageRadius: 24
+        hitEffect: absorb
         ammoMultiplier: 12
     }
 }

@@ -74,3 +74,9 @@ You could use black integration blocks in integration of schematics, that is wha
 => maxItem parameters increased of: coac-crucible, coalcoc-crucible and coactal-crucible.
 -> ..that prevents unstable producing of crucibles.
 => ct-bullet added.
+
+# With v1.31.0
+=> Some of known turrets has a new property: splash damage.
+-> Aimed to balancing turrets (not, cee, eke)
+=> Damage of nad increased, now nad shots a bit a bit a bit more quickly.
+

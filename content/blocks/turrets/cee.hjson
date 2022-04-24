@@ -16,54 +16,81 @@ ammoTypes: {
         type: BasicBulletType
         speed: 5
         damage: 13
+        splashDamage: 6
+        splashDamageRadius: 20
+        hitEffect: absorb
         ammoMultiplier: 3
     }
     sand: {
         type: BasicBulletType
         speed: 8
         damage: 6
+        splashDamage: 4
+        splashDamageRadius: 35
+        hitEffect: absorb
         ammoMultiplier: 1
     }
     coal: {
         type: BasicBulletType
         speed: 6
         damage: 10
+        splashDamage: 11
+        splashDamageRadius: 30
+        hitEffect: absorb
         ammoMultiplier: 5
     }
     graphite: {
         type: BasicBulletType
         speed: 7
         damage: 24
+        splashDamage: 16
+        splashDamageRadius: 15
+        hitEffect: absorb
         ammoMultiplier: 6
     }
     silicon: {
         type: BasicBulletType
         speed: 10
         damage: 10
+        splashDamage: 8
+        splashDamageRadius: 40
+        hitEffect: absorb
         ammoMultiplier: 12
     }
     titanium: {
         type: BasicBulletType
         speed: 12
-        damage: 8
+        damage: 9
+        splashDamage: 10
+        splashDamageRadius: 24
+        hitEffect: absorb
         ammoMultiplier: 4
     }
     thorium: {
         type: BasicBulletType
         speed: 6
         damage: 25
+        splashDamage: 14
+        splashDamageRadius: 36
+        hitEffect: absorb
         ammoMultiplier: 6
     }
     scrap: {
         type: BasicBulletType
         speed: 5
         damage: 16
+        splashDamage: 13
+        splashDamageRadius: 26
+        hitEffect: absorb
         ammoMultiplier: 2
     }
     metaglass: {
         type: BasicBulletType
         speed: 10
         damage: 20
+        splashDamage: 18
+        splashDamageRadius: 34
+        hitEffect: absorb
         ammoMultiplier: 6
     }
 }
