@@ -16,13 +16,13 @@ ammoTypes: {
         type: BasicBulletType
         speed: 3
         damage: 18
-        status: {
-            damageMultiplier: 0.3
-            armorMultiplier: 0.4
-            speedMultiplier: 0.2
-            color: green
-            effect: shockwave
-        }
+        #status: {
+        #    damageMultiplier: 0.3
+        #    armorMultiplier: 0.4
+        #    speedMultiplier: 0.2
+        #    color: green
+        #    effect: shockwave
+        #}
         knockback: 42
         homingPower: 1
         homingRange: 40
@@ -38,4 +38,4 @@ requirements: [
 ]
 
 category: turret
-research: duo
+research: cuo
