@@ -7,10 +7,10 @@ radius: 60
 useTime: 180
 radiusBoost: 70
 cooldownNormal: 0.90
-cooldownLiquid: 1
+cooldownLiquid: 2
 cooldownBrokenBase: 0.40
 basePowerDraw: 0.3
-breakage: 4000
+breakage: 1000
 consumes: {
     power: 2.5
     items: {
