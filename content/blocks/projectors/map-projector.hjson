@@ -1,0 +1,38 @@
+type: forceProjector
+name: Map Projector
+description: Protects its map area.
+health: 2300
+size: 2
+radius: 200
+useTime: 60
+radiusBoost: 100
+cooldownNormal: 3.1
+cooldownLiquid: 2.8
+cooldownBrokenBase: 3.0
+basePowerDraw: 1.2
+breakage: 100
+consumes: {
+    power: 21.0
+    items: {
+        items: [
+            coalcoc/3
+            cnoadal/3
+            thare/1
+        ]
+    }
+}
+requirements: [
+    prc/300
+    coactal/100
+    graphite/300
+    silicon/300
+    actilac/180
+    thare/100
+    coxy/160
+    brick/60
+    thorium/400
+]
+category: effect
+research: proton-projector
+
+

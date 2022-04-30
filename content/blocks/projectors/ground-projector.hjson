@@ -1,0 +1,29 @@
+type: forceProjector
+name: Ground Projector
+description: Ground-type projector.
+health: 560
+size: 2
+radius: 60
+useTime: 180
+radiusBoost: 70
+cooldownNormal: 0.90
+cooldownLiquid: 1
+cooldownBrokenBase: 0.40
+basePowerDraw: 0.3
+breakage: 4000
+consumes: {
+    power: 2.5
+    items: {
+        items: [
+            sand/2
+        ]
+    }
+}
+requirements: [
+    prc/100
+    cnoadal/70
+    silicon/60
+]
+category: effect
+research: force-projector
+

@@ -84,3 +84,5 @@ You could use black integration blocks in integration of schematics, that is wha
 => A turret added: ground-frog.
 => ground-bridge-conveyor and ground-bridge-conduit added.
 
+# With v1.32.5
+=> Two new projectors added: ground-projector and map-projector.
