@@ -1,0 +1,16 @@
+type: LiquidExtendingBridge
+name: Ground Bridge Conduit
+description: "Alternates liquid transportation into ground. Unplaceable at sea."
+health: 450
+range: 7
+hasPower: false
+placeableLiquid: false
+requirements: [
+    prc/250
+    cnoadal/130
+    silicon/100
+    metaglass/120
+]
+category: liquid
+research: bridge-conduit
+

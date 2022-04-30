@@ -80,3 +80,7 @@ You could use black integration blocks in integration of schematics, that is wha
 -> Aimed to balancing turrets (not, cee, eke)
 => Damage of nad increased, now nad shots a bit a bit a bit more quickly.
 
+# With v1.32.0
+=> A turret added: ground-frog.
+=> ground-bridge-conveyor and ground-bridge-conduit added.
+

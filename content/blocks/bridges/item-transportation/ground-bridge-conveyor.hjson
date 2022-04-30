@@ -1,0 +1,20 @@
+type: ItemBridge
+name: Ground Bridge Conveyor
+description:
+    '''
+    Alternates transportation into ground.
+    But can't be placeable on sea.
+    '''
+health: 500
+range: 4
+hasPower: false
+placeableLiquid: false
+transportTime: 0
+itemCapacity: 50
+requirements: [
+    prc/300
+    cnoadal/100
+    silicon/200
+]
+category: distribution
+research: bridge-conveyor

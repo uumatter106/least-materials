@@ -1,6 +1,6 @@
 type: ItemTurret
 name: Cuo
-description: Fires ct-bullet.
+description: "Fires ct-bullet."
 targetAir: false
 health: 120
 size: 1
