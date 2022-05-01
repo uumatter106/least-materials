@@ -90,3 +90,7 @@ You could use black integration blocks in integration of schematics, that is wha
 # With v1.33.0
 => Two turrets added: geo, fep.
 
+# With v1.33.3
+=> Turret images of new two turrets have changed.
+=> New wall have added: blun.
+

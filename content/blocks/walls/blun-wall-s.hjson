@@ -1,0 +1,14 @@
+type: Wall
+name: Blun Small Wall
+description: 1x1 sized. Made of blun material which is mix of sand and lead.
+health: 400
+size: 1
+hasShadow: false
+buildCostMultiplier: 0.2
+requirements: [
+    lead/9
+    sand/9
+]
+category: defense
+research: copper-wall
+

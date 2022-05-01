@@ -8,7 +8,7 @@ targetGround: false
 scaledForce: 14
 health: 900
 range: 260
-damage: 35
+damage: 40
 rotateSpeed: 16
 hasPower: true
 consumes: {

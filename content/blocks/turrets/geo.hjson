@@ -41,10 +41,11 @@ ammoTypes: {
 }
 
 requirements: [
-    copper/30
-    lead/30
+    prc/40
+    coac/30
+    sand/20
 ]
 
 category: turret
-research: duo
+research: scatter
 

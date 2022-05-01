@@ -1,5 +1,5 @@
 type: ItemTurret
-name: Fep
+name: Def
 description:
     '''
     Anti-air turret. Better than geo.
@@ -40,13 +40,15 @@ ammoTypes: {
 }
 
 requirements: [
-    prc/50
-    coactal/30
-    cnoadal/40
-    actilac/60
-    convecoal/30
-    thare/20
-    thorium/70
+    prc/60
+    coactal/40
+    cnoadal/50
+    actilac/70
+    convecoal/40
+    thare/30
+    coxy/60
+    thorium/80
+    graphite/50
 ]
 
 category: turret
