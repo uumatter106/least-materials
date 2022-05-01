@@ -1,10 +1,10 @@
 type: ItemTurret
 name: Geo
 description:
-    """
+    '''
     Geographic turret.
     Uses potential of geography.
-    """
+    '''
 targetAir: true
 targetGround: false
 health: 180
