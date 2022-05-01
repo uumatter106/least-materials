@@ -1,0 +1,50 @@
+type: ItemTurret
+name: Geo
+description:
+    """
+    Geographic turret.
+    Uses potential of geography.
+    """
+targetAir: true
+targetGround: false
+health: 180
+size: 1
+reloadTime: 27
+range: 90
+inaccuracy: 7
+rotatespeed: 120
+maxAmmo: 20
+
+ammoTypes: {
+    copper: {
+        type: BasicBulletType
+        speed: 3
+        damage: 8
+        homingPower: 1
+        homingRange: 15
+        fragBullets: 3
+        fragBullet: {
+            type: FlakBulletType
+            speed: 3
+            damage: 4
+            splashDamage: 9
+            fragBullets: 5
+            fragBullet: {
+                type: BasicBulletType
+                speed: 2
+                damage: 2
+                homingPower: 1
+                homingRange: 30
+            }
+        }
+    }
+}
+
+requirements: [
+    copper/30
+    lead/30
+]
+
+category: turret
+research: duo
+

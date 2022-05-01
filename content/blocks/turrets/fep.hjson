@@ -1,0 +1,54 @@
+type: ItemTurret
+name: Fep
+description:
+    """
+    Anti-air turret. Better than geo.
+    """
+targetAir: true
+targetGround: false
+health: 510
+size: 1
+reloadTime: 4.2
+range: 155
+inaccuracy: 4
+rotatespeed: 150
+maxAmmo: 35
+
+ammoTypes: {
+    graphite: {
+        type: BasicBulletType
+        speed: 5
+        damage: 34
+        homingPower: 1
+        homingRange: 38
+        fragBullets: 4
+        fragBullet: {
+            type: FlakBulletType
+            speed: 5
+            damage: 28
+            splashDamage: 21
+            fragBullets: 9
+            fragBullet: {
+                type: BasicBulletType
+                speed: 4
+                damage: 20
+                homingPower: 1
+                homingRange: 60
+            }
+        }
+    }
+}
+
+requirements: [
+    prc/50
+    coactal/30
+    cnoadal/40
+    actilac/60
+    convecoal/30
+    thare/20
+    thorium/70
+]
+
+category: turret
+research: geo
+

@@ -86,3 +86,7 @@ You could use black integration blocks in integration of schematics, that is wha
 
 # With v1.32.5
 => Two new projectors added: ground-projector and map-projector.
+
+# With v1.33.0
+=> Two turrets added: geo, fep.
+
