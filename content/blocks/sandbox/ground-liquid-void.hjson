@@ -3,4 +3,4 @@ name: Ground Liquid Void
 description: Ground-type hopely infinite liquid dropper - incinerator - with more health.
 health: 400
 category: liquid
-
+requirements: []

@@ -3,4 +3,4 @@ name: Ground Power Void
 description: Ground-type hopely infinite consuming of power with more health.
 health: 400
 category: power
-
+requirements: []

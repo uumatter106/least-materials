@@ -3,4 +3,4 @@ name: Ground Item Void
 description: Ground-type hopely infinite item dropper - incinerator - with more health.
 health: 400
 category: distribution
-
+requirements: []

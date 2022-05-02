@@ -3,4 +3,4 @@ name: Ground Item Source
 description: Ground-type hopely infinite item source with more health.
 health: 400
 category: distribution
-
+requirements: []
