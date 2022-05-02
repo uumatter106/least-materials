@@ -1,0 +1,6 @@
+type: PowerSource
+name: Ground Power Source
+description: Ground-type hopely infinite power with more health.
+health: 400
+category: power
+
