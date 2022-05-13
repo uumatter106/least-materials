@@ -8,13 +8,14 @@ reloadTime: 110
 range: 800
 inaccuracy: 0
 rotatespeed: 20
+shootSound: artillery
 maxAmmo: 10
 category: turret
 
 ammoTypes: {
     scrap: {
         type: BasicBulletType
-        speed: 15
+        speed: 18
         damage: 13
         splashDamage: 19
         splashDamageRadius: 30
