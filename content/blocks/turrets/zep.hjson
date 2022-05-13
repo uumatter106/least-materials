@@ -15,7 +15,7 @@ category: turret
 ammoTypes: {
     scrap: {
         type: BasicBulletType
-        speed: 18
+        speed: 19
         damage: 13
         splashDamage: 19
         splashDamageRadius: 30
