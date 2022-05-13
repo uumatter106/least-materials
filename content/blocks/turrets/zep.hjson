@@ -1,0 +1,32 @@
+type: ItemTurret
+name: Zep
+description: Earliest turret, allows defensing and with wide-range.
+targetAir: false
+health: 50
+size: 3
+reloadTime: 110
+range: 800
+inaccuracy: 0
+rotatespeed: 20
+maxAmmo: 10
+category: turret
+
+ammoTypes: {
+    scrap: {
+        type: BasicBulletType
+        speed: 15
+        damage: 13
+        splashDamage: 19
+        splashDamageRadius: 30
+        hitEffect: absorb
+        ammoMultiplier: 1
+    }
+}
+
+requirements: [
+    copper/20
+    scrap/10
+]
+
+category: turret
+research: duo

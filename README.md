@@ -97,4 +97,6 @@ You could use black integration blocks in integration of schematics, that is wha
 # With v1.33.5
 => Ground-type sandbox blocks added (6): ground-item-(source, void), ground-liquid-(source, void), ground-power-(source, void)
 
+# With v1.34.1
+=> Zep turret has been added.
 
