@@ -18,3 +18,13 @@ ammoTypes: {
     }
 }
 
+requirements: [
+    prc/40
+    sand/30
+    coal/20
+    spore-pod/10
+]
+
+category: turret
+research: cuo
+
