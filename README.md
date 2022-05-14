@@ -103,4 +103,8 @@ You could use black integration blocks in integration of schematics, that is wha
 # With v1.34.3
 => Lim turret stats has been increased.
 
+# With v1.34.7
+=> Inc turret has been added.
+=> Some rewritings :D
+
 

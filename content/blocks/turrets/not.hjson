@@ -9,7 +9,6 @@ range: 120
 inaccuracy: 4
 rotatespeed: 30
 maxAmmo: 200
-category: turret
 
 ammoTypes: {
     copper: {

@@ -1,0 +1,20 @@
+type: ItemTurret
+name: Inc
+description: Increases health of blocks around itself.
+targetAir: false
+health: 80
+size: 2
+reloadTime: 10.2
+range: 60
+inaccuracy: 1
+rotatespeed: 48
+maxAmmo: 30
+
+ammoTypes: {
+    spore-pod: {
+        type: HealBulletType
+        speed: 3
+        healPercent: 2
+    }
+}
+
