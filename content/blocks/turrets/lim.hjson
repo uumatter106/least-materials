@@ -29,6 +29,8 @@ ammoTypes: {
         type: ArtilleryBulletType
         trailEffect: none
         speed: 14
+        bulletWidth: 8
+        bulletHeight: 12
         splashDamage: 40
         splashDamageRadius: 30
         ammoMultiplier: 2
@@ -38,6 +40,8 @@ ammoTypes: {
         type: ArtilleryBulletType
         trailEffect: none
         speed: 14
+        bulletWidth: 10
+        bulletHeight: 14
         splashDamage: 43
         splashDamageRadius: 35
         ammoMultiplier: 3
@@ -47,6 +51,8 @@ ammoTypes: {
         type: ArtilleryBulletType
         trailEffect: none
         speed: 14
+        bulletWidth: 10
+        bulletHeight: 14
         splashDamage: 46
         splashDamageRadius: 42
         ammoMultiplier: 3
@@ -57,6 +63,8 @@ ammoTypes: {
         type: ArtilleryBulletType
         trailEffect: none
         speed: 14
+        bulletWidth: 10
+        bulletHeight: 14
         splashDamage: 52
         splashDamageRadius: 45
         ammoMultiplier: 4
@@ -75,6 +83,8 @@ ammoTypes: {
         type: ArtilleryBulletType
         trailEffect: none
         speed: 14
+        bulletWidth: 10
+        bulletHeight: 13
         splashDamage: 39
         splashDamageRadius: 44
         ammoMultiplier: 1

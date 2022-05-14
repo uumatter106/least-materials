@@ -107,4 +107,8 @@ You could use black integration blocks in integration of schematics, that is wha
 => Inc turret has been added.
 => Some rewritings :D
 
+# With v1.34.8
+=> Inc turret doesn't work as we want. Deleted.
+=> Bullet size of lim turret has been enlargened.
+
 
