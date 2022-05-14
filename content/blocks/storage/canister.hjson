@@ -22,6 +22,5 @@ requirements: [
 
 group: transportation
 category: effect
-alwaysUnlocked: true
-
+research: scrap
 
