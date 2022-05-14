@@ -25,8 +25,66 @@ ammoTypes: {
 	silicon: artilleryHoming
 	pyratite: artilleryIncendiary
 	blast-compound: artilleryExplosive
-	plastanium: artilleryPlastic 
+	plastanium: artilleryPlastic
 }
+
+ammoTypes: {
+    graphite: {
+        type: ArtilleryBulletType
+        speed: 14
+        splashDamage: 40
+        splashDamageRadius: 30
+        ammoMultiplier: 2
+    }
+    silicon: {
+        type: ArtilleryBulletType
+        speed: 14
+        splashDamage: 43
+        splashDamageRadius: 35
+        ammoMultiplier: 3
+        reloadMultiplier: 2
+    }
+    pyratite: {
+        type: ArtilleryBulletType
+        speed: 14
+        splashDamage: 46
+        splashDamageRadius: 42
+        ammoMultiplier: 3
+        reloadMultiplier: 2
+    }
+    plastanium: {
+        type: ArtilleryBulletType
+        speed: 14
+        splashDamage: 52
+        splashDamageRadius: 45
+        ammoMultiplier: 4
+        knockback: 3
+        fragBullets: 2
+        fragBullet: {
+            type: ArtilleryBulletType
+            speed: 3
+            splashDamage: 10
+            splashDamageRadius: 13
+        }
+    }
+    thorium: {
+        type: ArtilleryBulletType
+        speed: 14
+        splashDamage: 39
+        splashDamageRadius: 44
+        ammoMultiplier: 1
+        hitEffect: absorb
+        knockback: 5
+        fragBullets: 1
+        fragBullet: {
+            type: ArtilleryBulletType
+            speed: 19
+            splashDamage: 12
+            splashDamageRadius: 16
+        }
+    }
+}
+
 requirements: [
     prc/120
     coac/80
