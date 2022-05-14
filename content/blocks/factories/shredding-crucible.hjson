@@ -8,7 +8,7 @@ drawer: DrawBlock
 hasItems: true
 hasLiquids: false
 hasPower: true
-itemCapacity: 37
+itemCapacity: 53
 solid: true
 health: 313
 size: 3
@@ -31,7 +31,7 @@ consumes: {
         ]
     }
 }
-outputItem: scrap/9
+outputItem: scrap/29
 craftTime: 144
 craftEffect: none
 updateEffect: none
