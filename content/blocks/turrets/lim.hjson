@@ -80,7 +80,7 @@ ammoTypes: {
         fragBullets: 1
         fragBullet: {
             type: ArtilleryBulletType
-            speed: 19
+            speed: 13
             splashDamage: 12
             splashDamageRadius: 16
         }
