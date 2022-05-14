@@ -10,7 +10,9 @@ hasPower: true
 hasLiquids: true
 size: 3
 pumpAmount: 0.5
-consumes: {}
+consumes: {
+    power: 0.8
+}
 requirements: [
     prc/60
     cnoadal/40
@@ -20,7 +22,6 @@ requirements: [
     silicon/100
     metaglass/150
 ]
-powerUse: 0.8
 
 buildCostMultiplier: 1.7
 category: production

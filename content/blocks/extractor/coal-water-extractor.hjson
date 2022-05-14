@@ -16,7 +16,6 @@ requirements: [
     graphite/80
     coalcoc/90
 ]
-# powerUse: 1.0
 category: production
 research: water-extractor
 liquidCapacity: 60
