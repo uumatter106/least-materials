@@ -116,3 +116,7 @@ You could use black integration blocks in integration of schematics, that is wha
 => They are: canister, scrap-unloader, passivator, scrap-disassembler, shredding-crucible
 => And.. basic-oil-pump, oil-elevator has been added.
 
+# With v1.35.2
+=> Cleaner unextinguishing problem has been solved.
+=> Shoot cones of cleaner and hortum changed.
+

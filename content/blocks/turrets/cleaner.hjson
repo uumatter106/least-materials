@@ -3,12 +3,12 @@ name: Cleaner
 description: Cleans around himself.
 health: 130
 size: 1
-range: 90
-reloadTime: 77
+range: 80
+reloadTime: 55
 hasLiquids: true
 liquidCapacity: 30
 shootSound: shoot
-shootCone: 150
+shootCone: 10
 inaccuracy: 1
 rotateSpeed: 130
 targetAir: false
