@@ -8,7 +8,7 @@ requirements: [
     scrap/30
 ]
 category: effect
-speed: 5.34
+speed: 6.37
 
 buildCostMultiplier: 0.5
 group: transportation
