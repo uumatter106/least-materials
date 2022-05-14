@@ -2,8 +2,8 @@ type: SolidPump
 name: Pipet
 description:
     '''
-    Its design allows to pump effect on water.
-    So water comes up to earth slowly.
+    Its design allows to pump effect of water.
+    So water comes up to surface slowly.
     Doesn't require any power hopely.
     '''
 health: 30

@@ -1,0 +1,40 @@
+name: Shredding Crucible
+type: GenericCrafter
+description:
+    '''
+    Shreds thare material with blast-compound and power to gather scrap from it.
+    '''
+drawer: DrawBlock
+hasItems: true
+hasLiquids: false
+hasPower: true
+itemCapacity: 37
+solid: true
+health: 313
+size: 3
+category: crafting
+research: scrap-disassembler
+requirements: [
+    brick/45
+    thare/35
+    prc/15
+    actilac/20
+    cnoadal/10
+    coalcoc/5
+]
+consumes: {
+    power: 4.5
+    items: {
+        items: [
+            thare/1
+            blast-compound/5
+        ]
+    }
+}
+outputItem: scrap/9
+craftTime: 144
+craftEffect: none
+updateEffect: none
+updateEffectChance: 0.04
+
+

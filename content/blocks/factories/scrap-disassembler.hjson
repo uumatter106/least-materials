@@ -1,0 +1,36 @@
+name: Scrap Disassembler
+type: GenericCrafter
+description:
+    '''
+    Disassembles prc material with power to gather scrap from it.
+    '''
+drawer: DrawBlock
+hasItems: true
+hasLiquids: false
+hasPower: true
+itemCapacity: 20
+solid: true
+health: 161
+size: 2
+category: crafting
+research: passivator
+requirements: [
+    prc/30
+    coac/10
+    cnoadal/10
+]
+consumes: {
+    power: 2
+    items: {
+        items: [
+            prc/2
+        ]
+    }
+}
+outputItem: scrap/5
+craftTime: 120
+craftEffect: none
+updateEffect: none
+updateEffectChance: 0.04
+
+

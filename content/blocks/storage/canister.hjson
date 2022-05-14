@@ -1,0 +1,27 @@
+name: Canister
+type: StorageBlock
+description:
+    '''
+    It's an earlier storage block which made of scraps.
+    '''
+update: true
+destructible: true
+solid: true
+breakable: true
+health: 50
+size: 1
+hasItems: true
+itemCapacity: 11
+buildCostMultiplier: 0.5
+
+requirements: [
+    copper/40
+    lead/10
+    scrap/60
+]
+
+group: transportation
+category: effect
+alwaysUnlocked: true
+
+

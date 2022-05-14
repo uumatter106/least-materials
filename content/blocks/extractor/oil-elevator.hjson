@@ -1,0 +1,30 @@
+type: SolidPump
+name: Oil Elevator
+description:
+    '''
+    Elevates oil liquid on surface pack by pack.
+    '''
+health: 120
+result: oil
+hasPower: true
+hasLiquids: true
+size: 3
+pumpAmount: 0.5
+consumes: {}
+requirements: [
+    prc/60
+    cnoadal/40
+    graphite/90
+    coactal/10
+    thare/10
+    silicon/100
+    metaglass/150
+]
+powerUse: 0.8
+
+buildCostMultiplier: 1.7
+category: production
+research: basic-oil-pump
+liquidCapacity: 40
+
+

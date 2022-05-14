@@ -1,0 +1,36 @@
+name: Passivator
+type: GenericCrafter
+description:
+    '''
+    Passivates copper via sand washing to gather scrap from that copper.
+    '''
+drawer: DrawBlock
+hasItems: true
+hasLiquids: false
+hasPower: false
+itemCapacity: 10
+solid: true
+health: 75
+size: 1
+category: crafting
+research: graphite-press
+requirements: [
+    copper/30
+    lead/20
+    coal/20
+    sand/10
+]
+consumes: {
+    items: {
+        items: [
+            copper/1
+            sand/2
+        ]
+    }
+}
+outputItem: scrap/2
+craftTime: 90
+craftEffect: none
+updateEffect: none
+updateEffectChance: 0.04
+

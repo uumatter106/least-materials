@@ -1,0 +1,16 @@
+name: Scrap Unloader
+description: Unloads items from unloadable resources. Made from scrap hopely.
+type: Unloader
+health: 35
+requirements: [
+    copper/10
+    lead/20
+    scrap/30
+]
+category: effect
+speed: 5.34
+
+buildCostMultiplier: 0.5
+group: transportation
+research: canister
+

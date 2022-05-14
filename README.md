@@ -111,4 +111,8 @@ You could use black integration blocks in integration of schematics, that is wha
 => Inc turret doesn't work as we want. Deleted.
 => Bullet size of lim turret has been enlargened.
 
+# With v1.35.1
+=> New things (code: 1) has been added.
+=> They are: canister, scrap-unloader, passivator, scrap-disassembler, shredding-crucible
+=> And.. basic-oil-pump, oil-elevator has been added.
 

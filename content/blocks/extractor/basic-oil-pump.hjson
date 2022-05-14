@@ -1,0 +1,28 @@
+type: SolidPump
+name: Basic Oil Pump
+description:
+    '''
+    Its design allows to pump effect of oil.
+    So oil comes up to surface slowly.
+    Doesn't require any power hopely.
+    '''
+health: 60
+result: oil
+hasPower: false
+hasLiquids: true
+size: 1
+pumpAmount: 0.02
+consumes: {}
+requirements: [
+    prc/20
+    coac/10
+    metaglass/50
+]
+buildCostMultiplier: 1.9
+# powerUse: 1.0
+category: production
+research: pipet
+liquidCapacity: 8
+
+# pumpAmount x60 -> wat/sec
+
