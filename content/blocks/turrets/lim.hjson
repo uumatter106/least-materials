@@ -50,7 +50,7 @@ ammoTypes: {
         splashDamage: 46
         splashDamageRadius: 42
         ammoMultiplier: 3
-        reloadMultiplier: 2
+        reloadMultiplier: 1.5
     }
     plastanium: {
         type: ArtilleryBulletType
@@ -59,6 +59,7 @@ ammoTypes: {
         splashDamageRadius: 45
         ammoMultiplier: 4
         knockback: 3
+        reloadMultiplier: 0.9
         fragBullets: 2
         fragBullet: {
             type: ArtilleryBulletType
@@ -73,6 +74,7 @@ ammoTypes: {
         splashDamage: 39
         splashDamageRadius: 44
         ammoMultiplier: 1
+        reloadMultiplier: 1.1
         hitEffect: absorb
         knockback: 5
         fragBullets: 1
@@ -94,3 +96,5 @@ requirements: [
 ]
 category: turret
 research: rke
+
+
