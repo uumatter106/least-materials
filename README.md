@@ -120,3 +120,7 @@ You could use black integration blocks in integration of schematics, that is wha
 => Cleaner unextinguishing problem has been solved.
 => Shoot cones of cleaner and hortum changed.
 
+# With v1.35.3
+=> Titanium sprite overrided with new titanium sprite which maden some modification on it.
+
+
