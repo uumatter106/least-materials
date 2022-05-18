@@ -1,0 +1,34 @@
+type: Drill
+name: Prc Quarry
+description: Prc maden earliest of game quarry hopely.
+health: 330
+drillTime: 270
+tier: 3
+warmupSpeed: 0.005
+liquidBoostIntensity: 1.8
+liquidCapacity: 10
+rotateSpeed: 5
+hasPower: true
+heatColor: BE8D33
+drawRim: false
+size: 4
+consumes: {
+    power: 3.1
+    liquid: {
+        liquid: water
+        amount: 0.3
+        booster: true
+        optional: true
+    }
+}
+requirements: [
+    prc/120
+    coac/70
+    sand/45
+    graphite/55
+    scrap/75
+]
+category: production
+research: pneumatic-drill
+# amount * 60 = (liquid/sn)
+
