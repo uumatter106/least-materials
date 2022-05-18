@@ -127,4 +127,6 @@ You could use black integration blocks in integration of schematics, that is wha
 # With v1.35.7
 => Quarry-type miner has been added: prc-quarry.
 => .. You could think where do we satisfy inputs of mechanical crops via miners. Answer is hopefully you doesn't need to use crops to output to crops, this looks bad. But you would use prc-quarry (and other miners, already) to satisfy our mechanical crops hopely.
+=> Canister has 17 items now.
+
 
