@@ -21,6 +21,7 @@ ammoTypes: {
         damage: 120
         drawSize: 150
         hitSound: splash
+        collidesAir: false
         homingPower: 4
         homingRange: 400
         fragBullets: 9
@@ -30,6 +31,7 @@ ammoTypes: {
             damage: 50
             drawSize: 130
             hitSound: splash
+            collidesAir: false
             homingPower: 3
             homingRange: 300
             fragBullets: 3
@@ -39,6 +41,7 @@ ammoTypes: {
                 damage: 40
                 drawSize: 110
                 hitSound: splash
+                collidesAir: false
                 splashDamage: 57
                 splashDamageRadius: 65
                 hitEffect: absorb
