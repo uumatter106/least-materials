@@ -1,0 +1,55 @@
+type: ItemTurret
+name: Kta
+description: "Cuts enemy actions on ground hopely. Sandbox only."
+targetAir: false
+health: 400
+size: 3
+reloadTime: 30.3
+range: 1000
+inaccuracy: 0
+rotatespeed: 400
+maxAmmo: 400
+
+xRand: 5
+buildVisibility: sandboxOnly
+buildCostMultiplier: 0.01
+
+ammoTypes: {
+    copper: {
+        type: BasicBulletType
+        speed: 40
+        damage: 120
+        drawSize: 150
+        hitSound: splash
+        homingPower: 4
+        homingRange: 400
+        fragBullets: 9
+        fragBullet: {
+            type: BasicBulletType
+            speed: 5
+            damage: 50
+            drawSize: 130
+            hitSound: splash
+            homingPower: 3
+            homingRange: 300
+            fragBullets: 3
+            fragBullet: {
+                type: BasicBulletType
+                speed: 3
+                damage: 40
+                drawSize: 110
+                hitSound: splash
+                splashDamage: 57
+                splashDamageRadius: 65
+                hitEffect: absorb
+            }
+        }
+        ammoMultiplier: 23
+    }
+}
+
+requirements: []
+
+category: turret
+# research: duo
+

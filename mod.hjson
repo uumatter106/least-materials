@@ -2,7 +2,7 @@ name: "least-materials"
 displayName: "Least Materials"
 author: "AnyAuthor"
 description: "You could find your lost materials is least given materials."
-version: "1.35.7"
+version: "1.35.9"
 minGameVersion: "121.2"
 dependencies: []
 hidden: false
