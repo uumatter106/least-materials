@@ -1,0 +1,36 @@
+type: ItemTurret
+name: Sha
+description:
+    '''
+    It has continum speciality.
+    Continum means is no limit of range.
+    However shots are soft.
+    Requires power.
+    '''
+targetAir: false
+health: 360
+size: 1
+reloadTime: 3.3
+range: 1200
+inaccuracy: 0
+rotatespeed: 30
+maxAmmo: 15
+category: turret
+
+consumes: {
+    power: 3.5
+}
+
+requirements: [
+    prc/90
+    cnoadal/60
+    actilac/100
+    thare/270
+    thorium/120
+    silicon/140
+    graphite/90
+    plastanium/40
+    surge-alloy/30
+]
+
+
