@@ -133,6 +133,6 @@ You could use black integration blocks in integration of schematics, that is wha
 => Kta, kte turrets has been added. They are sandbox only. You would destroy all enemies you may want.
 
 # With v1.36.1
-=> Sha turret has been added.
-
+=> sha turret has been added.
+=> prc-mender has been added.
 

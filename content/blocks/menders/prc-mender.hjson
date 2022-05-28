@@ -1,0 +1,28 @@
+type: MendProjector
+name: Prc Mender
+description: Mends better than a mender.
+health: 150
+size: 2
+range: 80
+reload: 70
+itemStorage: 20
+phaseBoost: 2
+baseColor: "#CD7F32"
+buildCostMultiplier: 2.2
+healPercent: 0.93
+hasPower: true
+consumes: {
+    power: 1.3
+    items: {
+        items: [
+            sand/3
+            copper/1
+        ]
+    }
+}
+requirements: [
+    prc/30
+    coal/40
+    sand/50
+]
+

@@ -21,9 +21,10 @@ consumes: {
 requirements: [
     prc/50
     cnoadal/60
+    silicon/40
+    graphite/30
 ]
 category: effect
 research: mender
-
 
 
