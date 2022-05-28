@@ -10,8 +10,8 @@ description:
 targetAir: false
 health: 360
 size: 1
-reloadTime: 3.3
-range: 1200
+reloadTime: 29.3
+range: 1655
 inaccuracy: 0
 rotatespeed: 30
 maxAmmo: 15
@@ -19,7 +19,7 @@ category: turret
 
 shootType: {
     type: BasicBulletType
-    speed: 3
+    speed: 59
     damage: 11
     splashDamage: 5
     splashDamageRadius: 10
