@@ -2,10 +2,11 @@ type: PowerTurret
 name: Sha
 description:
     '''
-    It has continum speciality.
+    It has continum speciality (likely).
     Continum means is no limit of range.
     However shots are soft.
     Requires power.
+    Range is high likes continumny.
     '''
 targetAir: false
 health: 360
