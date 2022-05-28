@@ -25,4 +25,6 @@ requirements: [
     coal/40
     sand/50
 ]
+category: effect
+research: mender
 
