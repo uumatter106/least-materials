@@ -1,0 +1,50 @@
+type: ItemTurret
+name: Telepran Frog
+description: "It's a frog but pows his enemies better than ground frog hopely."
+targetAir: false
+health: 670
+size: 1
+reloadTime: 7.3
+range: 143
+inaccuracy: 0
+shots: 2
+rotatespeed: 360
+maxAmmo: 35
+category: turret
+
+ammoTypes: {
+    thorium: {
+        type: BasicBulletType
+        speed: 9
+        damage: 47
+        status: freezing
+        knockback: 75
+        homingPower: 2
+        homingRange: 98
+        ammoMultiplier: 2
+        fragBullets: 2
+        fragBullet: {
+            type: BasicBulletType
+            speed: 5
+            damage: 18
+            homingPower: 1
+            homingRange: 60
+        }
+    }
+}
+
+requirements: [
+    prc/75
+    cnoadal/100
+    coalcoc/45
+    thare/30
+    coxy/10
+    actilac/90
+    thorium/50
+    silicon/40
+    graphite/90
+]
+
+category: turret
+research: ground-frog
+

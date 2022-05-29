@@ -136,3 +136,7 @@ You could use black integration blocks in integration of schematics, that is wha
 => sha turret has been added.
 => prc-mender has been added.
 
+# With v1.36.3
+=> telepran-frog has been added.
+
+
